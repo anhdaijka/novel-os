@@ -11,8 +11,12 @@ Novel OS is intentionally **not** a custom agent framework. It composes existing
 - **Author decides.** AI can propose, draft, review, and recommend; it cannot silently canonize or retcon.
 - **One source of truth.** Canon lives in the repository, not in chat memory or a second app database.
 - **Draft is not canon.** Drafted details become canon only after author approval and state update.
-- **Deterministic checks first.** Story Skills validates references, continuity, promises, questions, knowledge/object state, and other machine-checkable constraints before LLM interpretation.
+- **Deterministic checks first.** Story Skills validates machine-checkable constraints before LLM interpretation.
 - **Model agnostic.** The work remains Markdown/YAML + Git even if the agent/model changes later.
+
+## Provenance
+
+Core third-party skills are pulled directly from their source repositories at pinned commits; Novel OS contributes only the integration layer (rules, scripts, prompts, templates, dashboards and CI). See [`docs/SUPPLY_CHAIN.md`](docs/SUPPLY_CHAIN.md).
 
 ## Stack
 
@@ -56,17 +60,13 @@ cd novel-os
 npm run bootstrap
 ```
 
-`bootstrap` installs pinned upstream Story Skills and the selected jwynia fiction skills into `.agents/skills/`. These generated skill files are intentionally git-ignored; the pinned versions live in `config/upstreams.json`.
+`bootstrap` installs pinned upstream Story Skills and the selected jwynia fiction skills into `.agents/skills/`. Generated skill files are intentionally git-ignored; pinned versions live in `config/upstreams.json`.
 
-Then initialize a story **into this repository root**. Bash example:
+Initialize a story into this repository root:
 
 ```bash
 npm run init-story -- "My Novel" --genre mystery --pov third-person-limited --tense past --theme truth
 ```
-
-The same one-line command works in PowerShell/Windows Terminal.
-
-The initializer delegates schema creation to the pinned Story Skills CLI, so Novel OS does not duplicate or guess its YAML schema.
 
 Then run:
 
@@ -77,12 +77,11 @@ npm run story:doctor
 npm run story:next
 ```
 
-Open the repository root as both:
+Open the repository root as both your Antigravity workspace and Obsidian vault. Pin [`Home.md`](Home.md) in Obsidian.
 
-1. your Antigravity workspace, and
-2. your Obsidian vault.
+## Agent roles
 
-They read and write the same files.
+Reusable bounded role prompts live under [`prompts/`](prompts/README.md): Director, Planner, Writer, Reviewer and Researcher. These prompts complement rather than replace `.agents/rules/`.
 
 ## Optional Better Writing skill
 
@@ -94,20 +93,32 @@ Use it selectively for prose polish after story/continuity issues are already re
 
 ## Daily chapter loop
 
-1. **Plan** — chapter purpose, POV, start/end state, scenes, promises/questions, forbidden reveals.
-2. **Check** — run deterministic Story Skills checks.
-3. **Author approve** the plan.
-4. **Draft** using minimum sufficient context.
-5. **Review** structure, character, dialogue, prose, continuity separately.
-6. **Approve revision plan** before rewriting.
-7. **Revise** only the required scope.
-8. **Canon diff** — list proposed state changes.
-9. **Author approve** all/selected/reject.
-10. **Update story state**.
-11. **Validate again**.
-12. **Commit** the accepted transition.
+1. Plan chapter purpose, POV, start/end state, scenes, promises/questions and forbidden reveals.
+2. Run deterministic checks.
+3. Author approves plan.
+4. Draft using minimum sufficient context.
+5. Review structure, character, dialogue, prose and continuity separately.
+6. Approve revision plan.
+7. Revise only required scope.
+8. Present canon diff.
+9. Author accepts all/selected/rejects.
+10. Update story state.
+11. Validate again.
+12. Commit accepted transition.
 
 Full workflow: [`docs/WORKFLOW.md`](docs/WORKFLOW.md).
+
+## Performance / stress testing
+
+Novel OS does not claim to control Gemini latency or guarantee prose quality. It does keep the deterministic/core layer measurable and lightweight. See [`docs/PERFORMANCE.md`](docs/PERFORMANCE.md).
+
+```bash
+# isolated temporary 3-chapter lifecycle fixture
+npm run stress:test
+
+# after a real story has been initialized
+npm run perf:check
+```
 
 ## Story CLI
 
@@ -127,7 +138,7 @@ npm run story -- build . --format epub
 
 ## Repository layers
 
-After story initialization, Story Skills owns its standard schema paths such as:
+After initialization Story Skills owns its standard schema paths:
 
 ```text
 story.md
@@ -140,56 +151,58 @@ glossary/
 chapters/
 ```
 
-Novel OS adds only complementary authoring layers:
+Novel OS adds complementary authoring layers only:
 
 ```text
-author/       creative constitution, style, boundaries, decision log
+author/       creative constitution, style, boundaries, decisions
 research/     non-canonical evidence and source notes
-rejected/     rejected ideas that agents must not resurrect
+rejected/     ideas agents must not resurrect
 revisions/    review/revision working material
-templates/    chapter/review/canon/research templates
+templates/    operational and genre overlay templates
+prompts/      bounded agent role prompts
 exports/      disposable generated outputs
-.agents/      Antigravity rules + locally installed skills
+.agents/      Antigravity rules + locally installed upstream skills
 ```
 
-Do not create a second character database, lore database, or continuity database in another app.
+Do not create a second character, lore, or continuity database in another app.
 
 ## First Antigravity prompt
 
-After bootstrap + story initialization:
-
 ```text
 Act as the Narrative Director for this repository.
-Read AGENTS.md, the workspace rules, story.md, and the current Story Skills state.
-Run the deterministic story checks before making narrative recommendations.
+Read AGENTS.md, applicable workspace rules, story.md, and current Story Skills state.
+Run deterministic story checks before making narrative recommendations.
 Do not draft prose yet.
-Tell me the current project state, unresolved setup work, and the safest next authoring action.
+Tell me the current project state, unresolved setup work, and safest next authoring action.
 ```
 
 ## Upstream updates
-
-Check whether pinned dependencies have newer commits:
 
 ```bash
 npm run upstreams:check
 ```
 
-Do not auto-upgrade during active drafting. Review upstream changes, update `config/upstreams.json`, rerun `npm run bootstrap -- --clean`, then run story checks before continuing.
+Do not auto-upgrade during active drafting. Review changes, update `config/upstreams.json`, rerun `npm run bootstrap -- --clean`, then run tooling/stress/story checks.
 
 ## CI
 
-- `story-checks.yml` runs Story Skills validation on pushes/PRs after `story.md` exists.
-- `tooling-smoke.yml` checks the local scripts and verifies pinned skill installation on both Ubuntu and Windows when tooling/config changes.
+- `story-checks.yml` validates initialized stories on pushes/PRs.
+- `tooling-smoke.yml` verifies pinned skill installation on Ubuntu and Windows.
+- `novel-os-stress.yml` creates a temporary linked three-chapter project and runs the maintenance pipeline.
 
 ## Where to start reading
 
 1. [`AGENTS.md`](AGENTS.md)
-2. [`docs/GETTING_STARTED.md`](docs/GETTING_STARTED.md)
-3. [`docs/WORKFLOW.md`](docs/WORKFLOW.md)
-4. [`docs/STACK.md`](docs/STACK.md)
-5. [`docs/OBSIDIAN.md`](docs/OBSIDIAN.md)
-6. [`docs/ANTIGRAVITY.md`](docs/ANTIGRAVITY.md)
-7. [`docs/PRIVACY.md`](docs/PRIVACY.md)
+2. [`Home.md`](Home.md)
+3. [`docs/GETTING_STARTED.md`](docs/GETTING_STARTED.md)
+4. [`docs/WORKFLOW.md`](docs/WORKFLOW.md)
+5. [`docs/AUTHOR_UX.md`](docs/AUTHOR_UX.md)
+6. [`docs/PERFORMANCE.md`](docs/PERFORMANCE.md)
+7. [`docs/SUPPLY_CHAIN.md`](docs/SUPPLY_CHAIN.md)
+8. [`docs/STACK.md`](docs/STACK.md)
+9. [`docs/OBSIDIAN.md`](docs/OBSIDIAN.md)
+10. [`docs/ANTIGRAVITY.md`](docs/ANTIGRAVITY.md)
+11. [`docs/PRIVACY.md`](docs/PRIVACY.md)
 
 ## Philosophy
 
