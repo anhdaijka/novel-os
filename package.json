@@ -1,6 +1,6 @@
 {
   "name": "novel-os",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "description": "Free-first agent-native novel authoring workspace",
   "type": "module",
@@ -21,6 +21,7 @@
     "tooling:check": "node scripts/tooling-check.mjs",
     "upstreams:check": "node scripts/check-upstreams.mjs",
     "stress:test": "node scripts/stress-test.mjs",
+    "lifecycle:test": "node scripts/lifecycle-test.mjs",
     "perf:check": "node scripts/perf-check.mjs"
   }
 }

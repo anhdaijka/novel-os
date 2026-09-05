@@ -4,12 +4,16 @@ on:
   push:
     paths:
       - 'scripts/**'
+      - 'examples/phase3-lifecycle/**'
+      - 'evals/**'
       - 'config/upstreams.json'
       - 'package.json'
       - '.github/workflows/novel-os-stress.yml'
   pull_request:
     paths:
       - 'scripts/**'
+      - 'examples/phase3-lifecycle/**'
+      - 'evals/**'
       - 'config/upstreams.json'
       - 'package.json'
       - '.github/workflows/novel-os-stress.yml'
@@ -26,5 +30,7 @@ jobs:
           node-version: 20
       - name: Install pinned skills locally
         run: npm run bootstrap -- --clean
-      - name: Run isolated three-chapter lifecycle test
+      - name: Run mechanical stress fixture
         run: npm run stress:test
+      - name: Run full authoring lifecycle fixture
+        run: npm run lifecycle:test
