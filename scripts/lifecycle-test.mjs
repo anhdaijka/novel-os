@@ -74,7 +74,7 @@ try {
   const project = findStoryDir(temp);
   story(['add', 'character', 'Mara Vale', '--role', 'protagonist'], project);
   story(['add', 'character', 'Ilan Reeve', '--role', 'supporting'], project);
-  story(['add', 'location', 'North Station', '--type', 'transit-hub', '--character', 'mara-vale', '--character', 'ilan-reeve'], project);
+  story(['add', 'location', 'North Station', '--type', 'landmark', '--character', 'mara-vale', '--character', 'ilan-reeve'], project);
   story(['add', 'artifact', 'Field Receiver', '--type', 'technology', '--owner', 'mara-vale', '--location', 'north-station'], project);
   story(['add', 'arc', 'Dead Frequency', '--type', 'main', '--character', 'mara-vale', '--character', 'ilan-reeve', '--theme', 'trust'], project);
 
@@ -121,7 +121,6 @@ try {
     writeFileSync(join(operations, name), golden(name), 'utf8');
   }
 
-  // Draft exists, but canon has not yet been mutated. Open promises/questions are legal here.
   const preCanonStart = performance.now();
   story(['wordcount', '.', '--write'], project);
   story(['reindex', '.'], project);
@@ -134,7 +133,6 @@ try {
   assertContains(join(operations, 'chapter-01-review.md'), ['Verdict', 'MAJOR']);
   assertContains(join(operations, 'chapter-01-canon-diff.md'), ['AUTHOR DECISION: ACCEPT ALL', 'knowledge-state']);
 
-  // Simulate the explicit author approval gate, then apply only schema-supported canonical mutations.
   const promiseFile = join(project, 'continuity', 'promises', 'the-signal-predicts-her-route.md');
   replaceFrontmatterScalar(promiseFile, 'status', 'paid-off');
   replaceFrontmatterScalar(promiseFile, 'payoff', 'chapter-03');
