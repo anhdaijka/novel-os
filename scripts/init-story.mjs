@@ -1,9 +1,10 @@
 import { execFileSync } from 'node:child_process';
-import { cpSync, existsSync, mkdirSync, mkdtempSync, readFileSync, readdirSync, rmSync } from 'node:fs';
+import { cpSync, existsSync, mkdtempSync, readFileSync, readdirSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
-import { join, resolve } from 'node:path';
+import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const root = resolve(new URL('..', import.meta.url).pathname);
+const root = fileURLToPath(new URL('..', import.meta.url));
 const lock = JSON.parse(readFileSync(join(root, 'config/upstreams.json'), 'utf8'));
 const argv = process.argv.slice(2);
 const forceIndex = argv.indexOf('--force');
@@ -24,12 +25,12 @@ if (existsSync(join(root, 'story.md')) && !force) {
 
 const temp = mkdtempSync(join(tmpdir(), 'novel-os-init-'));
 const spec = `github:${lock.storySkills.repo}#${lock.storySkills.commit}`;
+const npx = process.platform === 'win32' ? 'npx.cmd' : 'npx';
 
 try {
-  execFileSync('npx', ['--yes', '--package', spec, 'story', 'init', title, ...argv], {
+  execFileSync(npx, ['--yes', '--package', spec, 'story', 'init', title, ...argv], {
     cwd: temp,
-    stdio: 'inherit',
-    shell: process.platform === 'win32'
+    stdio: 'inherit'
   });
 
   const dirs = readdirSync(temp, { withFileTypes: true }).filter((x) => x.isDirectory());
@@ -43,12 +44,7 @@ try {
       if (!force) throw new Error(`Target already exists: ${item.name}`);
       rmSync(destination, { recursive: true, force: true });
     }
-    if (item.isDirectory()) {
-      mkdirSync(destination, { recursive: true });
-      cpSync(source, destination, { recursive: true });
-    } else {
-      cpSync(source, destination);
-    }
+    cpSync(source, destination, { recursive: item.isDirectory() });
   }
 
   console.log('\nStory Skills scaffold merged into Novel OS root.');

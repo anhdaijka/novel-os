@@ -1,9 +1,10 @@
 import { execFileSync } from 'node:child_process';
 import { cpSync, existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, readdirSync } from 'node:fs';
 import { tmpdir } from 'node:os';
-import { basename, join, resolve } from 'node:path';
+import { basename, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const root = resolve(new URL('..', import.meta.url).pathname);
+const root = fileURLToPath(new URL('..', import.meta.url));
 const lock = JSON.parse(readFileSync(join(root, 'config/upstreams.json'), 'utf8'));
 const args = new Set(process.argv.slice(2));
 const clean = args.has('--clean');
@@ -60,9 +61,7 @@ try {
   const craftRepo = checkoutPinned(lock.jwynia, temp);
   for (const rel of lock.jwynia.selected) {
     const source = join(craftRepo, rel);
-    if (!existsSync(join(source, 'SKILL.md'))) {
-      throw new Error(`Missing selected skill: ${rel}`);
-    }
+    if (!existsSync(join(source, 'SKILL.md'))) throw new Error(`Missing selected skill: ${rel}`);
     copyDir(source, join(target, basename(rel)));
   }
 
@@ -70,7 +69,7 @@ try {
     console.log('\n[3/3] Installing optional Better Writing skill...');
     const bwRepo = checkoutPinned(lock.betterWriting, temp);
     copyDir(bwRepo, join(target, 'better-writing'));
-    rmSync(join(target, 'better-writing/.git'), { recursive: true, force: true });
+    rmSync(join(target, 'better-writing', '.git'), { recursive: true, force: true });
   } else {
     console.log('\n[3/3] Better Writing not requested (optional).');
   }

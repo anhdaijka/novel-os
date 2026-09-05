@@ -1,8 +1,9 @@
 import { execFileSync } from 'node:child_process';
 import { readFileSync } from 'node:fs';
-import { join, resolve } from 'node:path';
+import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const root = resolve(new URL('..', import.meta.url).pathname);
+const root = fileURLToPath(new URL('..', import.meta.url));
 const lock = JSON.parse(readFileSync(join(root, 'config/upstreams.json'), 'utf8'));
 
 for (const [name, entry] of Object.entries(lock)) {
