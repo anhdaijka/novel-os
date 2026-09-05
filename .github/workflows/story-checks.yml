@@ -1,0 +1,33 @@
+name: Story checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  continuity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Skip before story initialization
+        id: story
+        shell: bash
+        run: |
+          if [ -f story.md ]; then
+            echo "initialized=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "initialized=false" >> "$GITHUB_OUTPUT"
+            echo "story.md does not exist yet; Novel OS template checks are skipped."
+          fi
+      - name: Validate schema
+        if: steps.story.outputs.initialized == 'true'
+        run: npm run story -- validate .
+      - name: Check links
+        if: steps.story.outputs.initialized == 'true'
+        run: npm run story -- links .
+      - name: Check continuity
+        if: steps.story.outputs.initialized == 'true'
+        run: npm run story -- continuity .

@@ -1,0 +1,23 @@
+node_modules/
+dist/
+.novel-os-tmp/
+.DS_Store
+Thumbs.db
+
+# Skills are reproducibly installed by scripts/bootstrap.mjs from pinned upstreams.
+.agents/skills/*
+!.agents/skills/.gitkeep
+
+# Disposable exports/builds
+exports/*
+!exports/.gitkeep
+manuscript.md
+
+# Optional local model/tool state
+.ollama/
+.koboldcpp/
+
+# Obsidian workspace state; keep content/settings portable, not UI session state.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache

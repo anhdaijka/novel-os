@@ -1,0 +1,23 @@
+{
+  "name": "novel-os",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Free-first agent-native novel authoring workspace",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "bootstrap": "node scripts/bootstrap.mjs",
+    "init-story": "node scripts/init-story.mjs",
+    "story": "node scripts/story.mjs",
+    "story:check": "node scripts/story-check.mjs",
+    "story:doctor": "node scripts/story.mjs doctor .",
+    "story:next": "node scripts/story.mjs next .",
+    "story:report": "node scripts/story.mjs report . --actionable",
+    "story:export": "node scripts/story.mjs export . --out manuscript.md",
+    "story:build:docx": "node scripts/story.mjs build . --format docx",
+    "story:build:epub": "node scripts/story.mjs build . --format epub",
+    "upstreams:check": "node scripts/check-upstreams.mjs"
+  }
+}

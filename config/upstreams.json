@@ -1,0 +1,33 @@
+{
+  "storySkills": {
+    "repo": "danjdewhurst/story-skills",
+    "url": "https://github.com/danjdewhurst/story-skills.git",
+    "commit": "d0dd40f30c0484f9e6886f7ad12123d19a2f61e5",
+    "copy": "skills"
+  },
+  "jwynia": {
+    "repo": "jwynia/agent-skills",
+    "url": "https://github.com/jwynia/agent-skills.git",
+    "commit": "e02ec7e226a6e4f8419fd3b88a1d8e472d421b32",
+    "selected": [
+      "skills/creative/fiction/core/story-sense",
+      "skills/creative/fiction/core/story-analysis",
+      "skills/creative/fiction/character/character-arc",
+      "skills/creative/fiction/character/dialogue",
+      "skills/creative/fiction/structure/scene-sequencing",
+      "skills/creative/fiction/craft/drafting",
+      "skills/creative/fiction/craft/prose-style",
+      "skills/creative/fiction/craft/revision",
+      "skills/creative/fiction/craft/genre-conventions"
+    ],
+    "disabled": [
+      "skills/creative/fiction/structure/story-zoom"
+    ]
+  },
+  "betterWriting": {
+    "repo": "forjd/better-writing",
+    "url": "https://github.com/forjd/better-writing.git",
+    "commit": "dd9d0a50581a7652fb38f03b7b751741ed917993",
+    "optional": true
+  }
+}
