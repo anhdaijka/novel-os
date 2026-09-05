@@ -4,6 +4,8 @@ A free-first, agent-native operating system for writing long-form fiction with *
 
 Novel OS is intentionally **not** a custom agent framework. It composes existing open tools and keeps the novel itself portable.
 
+> **Privacy:** this repository is currently public. For an unpublished manuscript, prefer creating a separate private repository from this template (or change visibility before adding story content). See [`docs/PRIVACY.md`](docs/PRIVACY.md).
+
 ## Core principles
 
 - **Author decides.** AI can propose, draft, review, and recommend; it cannot silently canonize or retcon.
@@ -56,21 +58,20 @@ npm run bootstrap
 
 `bootstrap` installs pinned upstream Story Skills and the selected jwynia fiction skills into `.agents/skills/`. These generated skill files are intentionally git-ignored; the pinned versions live in `config/upstreams.json`.
 
-Then initialize a story **into this repository root**:
+Then initialize a story **into this repository root**. Bash example:
 
 ```bash
-npm run init-story -- "My Novel" \
-  --genre mystery \
-  --pov third-person-limited \
-  --tense past \
-  --theme truth
+npm run init-story -- "My Novel" --genre mystery --pov third-person-limited --tense past --theme truth
 ```
+
+The same one-line command works in PowerShell/Windows Terminal.
 
 The initializer delegates schema creation to the pinned Story Skills CLI, so Novel OS does not duplicate or guess its YAML schema.
 
 Then run:
 
 ```bash
+npm run tooling:check
 npm run story:check
 npm run story:doctor
 npm run story:next
@@ -177,7 +178,8 @@ Do not auto-upgrade during active drafting. Review upstream changes, update `con
 
 ## CI
 
-`.github/workflows/story-checks.yml` runs Story Skills validation on pushes and pull requests **after `story.md` exists**. Before story initialization it exits cleanly.
+- `story-checks.yml` runs Story Skills validation on pushes/PRs after `story.md` exists.
+- `tooling-smoke.yml` checks the local scripts and verifies pinned skill installation on both Ubuntu and Windows when tooling/config changes.
 
 ## Where to start reading
 
@@ -187,6 +189,7 @@ Do not auto-upgrade during active drafting. Review upstream changes, update `con
 4. [`docs/STACK.md`](docs/STACK.md)
 5. [`docs/OBSIDIAN.md`](docs/OBSIDIAN.md)
 6. [`docs/ANTIGRAVITY.md`](docs/ANTIGRAVITY.md)
+7. [`docs/PRIVACY.md`](docs/PRIVACY.md)
 
 ## Philosophy
 

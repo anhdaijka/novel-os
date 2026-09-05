@@ -18,6 +18,7 @@
     "story:export": "node scripts/story.mjs export . --out manuscript.md",
     "story:build:docx": "node scripts/story.mjs build . --format docx",
     "story:build:epub": "node scripts/story.mjs build . --format epub",
+    "tooling:check": "node scripts/tooling-check.mjs",
     "upstreams:check": "node scripts/check-upstreams.mjs"
   }
 }

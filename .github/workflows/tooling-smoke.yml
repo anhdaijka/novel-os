@@ -1,0 +1,38 @@
+name: Tooling smoke
+
+on:
+  push:
+    paths:
+      - 'scripts/**'
+      - 'config/upstreams.json'
+      - 'package.json'
+      - '.github/workflows/tooling-smoke.yml'
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'config/upstreams.json'
+      - 'package.json'
+      - '.github/workflows/tooling-smoke.yml'
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Check local tooling
+        run: npm run tooling:check
+      - name: Install pinned skills
+        run: npm run bootstrap -- --clean
+      - name: Verify core Story Skill
+        shell: bash
+        run: test -f .agents/skills/story-init/SKILL.md
+      - name: Verify selected craft skill
+        shell: bash
+        run: test -f .agents/skills/story-sense/SKILL.md
