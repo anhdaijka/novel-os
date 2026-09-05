@@ -1,0 +1,51 @@
+{
+  "pandoc": {
+    "kind": "cli",
+    "executables": ["pandoc"],
+    "purpose": "Advanced Markdown to DOCX/EPUB/HTML conversion when Story Skills build output is not enough",
+    "trigger": "custom reference DOCX, advanced conversion, or a publishing workflow that requires Pandoc features"
+  },
+  "libreoffice": {
+    "kind": "cli",
+    "executables": ["soffice", "libreoffice"],
+    "purpose": "Final DOCX formatting and visual proofing",
+    "trigger": "a human-facing DOCX needs layout or style finishing"
+  },
+  "calibre": {
+    "kind": "cli",
+    "executables": ["ebook-convert"],
+    "purpose": "EPUB inspection and conversion tooling",
+    "trigger": "ebook delivery needs QA beyond the Story Skills build"
+  },
+  "ollama": {
+    "kind": "cli",
+    "executables": ["ollama"],
+    "purpose": "Local/private fallback for bounded low-risk AI tasks",
+    "trigger": "privacy, Gemini quota, offline work, or batch experimentation"
+  },
+  "zotero": {
+    "kind": "manual",
+    "purpose": "Source library for research-heavy fiction",
+    "trigger": "historical, scientific, legal, medical, political, or other source-heavy research"
+  },
+  "novelWriter": {
+    "kind": "manual",
+    "purpose": "Ergonomic long-form manuscript editing",
+    "trigger": "editing chapter prose in plain Markdown becomes uncomfortable"
+  },
+  "koboldCpp": {
+    "kind": "manual",
+    "purpose": "Local fiction-model laboratory",
+    "trigger": "compare alternate prose models without changing the canonical workflow"
+  },
+  "aeonTimeline": {
+    "kind": "manual-paid",
+    "purpose": "Specialized chronology management",
+    "trigger": "time travel, multi-generation chronology, or many simultaneous POV timelines exceed Markdown usability"
+  },
+  "mcp": {
+    "kind": "integration",
+    "purpose": "External service connectivity",
+    "trigger": "a concrete remote service cannot be accessed cleanly through existing Antigravity tools"
+  }
+}

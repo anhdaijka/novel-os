@@ -16,6 +16,9 @@
 - [[docs/QUALITY_GATES|Quality Gates]]
 - [[docs/SESSION_OPERATIONS|Session Operations]]
 - [[docs/MODEL_POLICY|Model Policy]]
+- [[docs/OPTIONAL_STACK|Optional Stack]]
+- [[docs/RESEARCH_PIPELINE|Research Pipeline]]
+- [[docs/EXPORT_PIPELINE|Export Pipeline]]
 - [[prompts/README|Agent Role Prompts]]
 - [[prompts/session/README|Session Prompts]]
 
@@ -77,6 +80,7 @@ SORT file.mtime DESC
 
 ```bash
 npm run os:doctor
+npm run capabilities
 npm run story:check
 npm run story:doctor
 npm run story:next

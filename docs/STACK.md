@@ -26,6 +26,8 @@ Novel OS is **free-first** and deliberately layered. Core tools are small; optio
 | Complex chronology | Aeon Timeline | Special case | only when markdown timeline is insufficient |
 | External integrations | MCP | Later | only for justified external services |
 
+Run `npm run capabilities` to detect optional CLI capabilities already available on the machine. Missing optional tools do not affect core readiness. See [`OPTIONAL_STACK.md`](OPTIONAL_STACK.md).
+
 ## Core skill selection
 
 Installed from jwynia by default:
@@ -40,19 +42,27 @@ Installed from jwynia by default:
 - revision
 - genre-conventions
 
-`story-zoom` is intentionally disabled in v1 because it can introduce a separate persisted story-state layer. Story Skills remains the single structured state owner.
+`story-zoom` is intentionally disabled because it can introduce a separate persisted story-state layer. Story Skills remains the single structured state owner.
 
 ## Better Writing
 
-Optional. Use for prose-quality passes when the source facts and voice are already controlled. Install with:
+Optional. Use for prose-quality passes when source facts and voice are already controlled. Install with:
 
 ```bash
 npm run bootstrap -- --with-better-writing
 ```
 
+## Optional activation rules
+
+- Use Story Skills build before adding Pandoc.
+- Use plain research Markdown before adding Zotero.
+- Use Story Skills timeline before adding a specialized chronology app.
+- Use Gemini before adding a local model unless privacy/quota/experimentation creates a real need.
+- Use Antigravity filesystem/browser capabilities before adding MCP.
+
 ## Excluded from the default path
 
-These are not bad tools; they simply duplicate responsibilities in an Antigravity-first architecture:
+These are not bad tools; they duplicate responsibilities in an Antigravity-first authoring workspace:
 
 - SillyTavern
 - DeepLore
