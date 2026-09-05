@@ -1,7 +1,7 @@
-import { execFileSync } from 'node:child_process';
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { runStory } from './lib/story-cli.mjs';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
 if (!existsSync(join(root, 'story.md'))) {
@@ -9,19 +9,12 @@ if (!existsSync(join(root, 'story.md'))) {
   process.exit(1);
 }
 
-const lock = JSON.parse(readFileSync(join(root, 'config/upstreams.json'), 'utf8'));
-const spec = `github:${lock.storySkills.repo}#${lock.storySkills.commit}`;
-const npx = process.platform === 'win32' ? 'npx.cmd' : 'npx';
-const commands = [
-  ['validate', '.'],
-  ['links', '.'],
-  ['continuity', '.']
-];
-
-for (const command of commands) {
+for (const command of [['validate', '.'], ['links', '.'], ['continuity', '.']]) {
   console.log(`\n> story ${command.join(' ')}`);
-  execFileSync(npx, ['--yes', '--package', spec, 'story', ...command], {
-    cwd: root,
-    stdio: 'inherit'
-  });
+  try {
+    runStory(root, command);
+  } catch (error) {
+    if (error.code === 'NOVEL_OS_STORY_CLI_MISSING') console.error(error.message);
+    process.exit(error.status ?? 1);
+  }
 }

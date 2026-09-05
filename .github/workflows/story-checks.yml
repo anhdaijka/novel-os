@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Skip before story initialization
+      - name: Detect initialized story
         id: story
         shell: bash
         run: |
@@ -22,6 +22,9 @@ jobs:
             echo "initialized=false" >> "$GITHUB_OUTPUT"
             echo "story.md does not exist yet; Novel OS template checks are skipped."
           fi
+      - name: Install pinned Story Skills locally
+        if: steps.story.outputs.initialized == 'true'
+        run: npm run bootstrap -- --clean
       - name: Validate schema
         if: steps.story.outputs.initialized == 'true'
         run: npm run story -- validate .

@@ -1,11 +1,10 @@
-import { execFileSync } from 'node:child_process';
-import { cpSync, existsSync, mkdtempSync, readFileSync, readdirSync, rmSync } from 'node:fs';
+import { cpSync, existsSync, mkdtempSync, readdirSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { runStory } from './lib/story-cli.mjs';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
-const lock = JSON.parse(readFileSync(join(root, 'config/upstreams.json'), 'utf8'));
 const argv = process.argv.slice(2);
 const forceIndex = argv.indexOf('--force');
 const force = forceIndex !== -1;
@@ -24,14 +23,8 @@ if (existsSync(join(root, 'story.md')) && !force) {
 }
 
 const temp = mkdtempSync(join(tmpdir(), 'novel-os-init-'));
-const spec = `github:${lock.storySkills.repo}#${lock.storySkills.commit}`;
-const npx = process.platform === 'win32' ? 'npx.cmd' : 'npx';
-
 try {
-  execFileSync(npx, ['--yes', '--package', spec, 'story', 'init', title, ...argv], {
-    cwd: temp,
-    stdio: 'inherit'
-  });
+  runStory(root, ['init', title, ...argv], { cwd: temp });
 
   const dirs = readdirSync(temp, { withFileTypes: true }).filter((x) => x.isDirectory());
   if (dirs.length !== 1) throw new Error(`Expected one generated story directory, found ${dirs.length}.`);
@@ -49,6 +42,9 @@ try {
 
   console.log('\nStory Skills scaffold merged into Novel OS root.');
   console.log('Next: fill author/ files, then run npm run story:check.');
+} catch (error) {
+  if (error.code === 'NOVEL_OS_STORY_CLI_MISSING') console.error(error.message);
+  process.exitCode = 1;
 } finally {
   rmSync(temp, { recursive: true, force: true });
 }

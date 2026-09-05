@@ -1,8 +1,8 @@
-import { execFileSync } from 'node:child_process';
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { performance } from 'node:perf_hooks';
 import { fileURLToPath } from 'node:url';
+import { runStory } from './lib/story-cli.mjs';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
 if (!existsSync(join(root, 'story.md'))) {
@@ -10,9 +10,6 @@ if (!existsSync(join(root, 'story.md'))) {
   process.exit(2);
 }
 
-const lock = JSON.parse(readFileSync(join(root, 'config/upstreams.json'), 'utf8'));
-const spec = `github:${lock.storySkills.repo}#${lock.storySkills.commit}`;
-const npx = process.platform === 'win32' ? 'npx.cmd' : 'npx';
 const commands = [
   ['validate', '.'],
   ['links', '.'],
@@ -22,17 +19,19 @@ const commands = [
 
 const results = [];
 const allStart = performance.now();
-for (const args of commands) {
-  const start = performance.now();
-  execFileSync(npx, ['--yes', '--package', spec, 'story', ...args], {
-    cwd: root,
-    stdio: 'ignore'
-  });
-  results.push({ command: `story ${args.join(' ')}`, ms: Math.round(performance.now() - start) });
+try {
+  for (const args of commands) {
+    const start = performance.now();
+    runStory(root, args, { stdio: 'ignore' });
+    results.push({ command: `story ${args.join(' ')}`, ms: Math.round(performance.now() - start) });
+  }
+} catch (error) {
+  if (error.code === 'NOVEL_OS_STORY_CLI_MISSING') console.error(error.message);
+  process.exit(error.status ?? 1);
 }
+
 const totalMs = Math.round(performance.now() - allStart);
-const output = { project: root, totalMs, checks: results };
-console.log(JSON.stringify(output, null, 2));
+console.log(JSON.stringify({ project: root, totalMs, checks: results }, null, 2));
 
 const budget = Number(process.env.NOVEL_OS_CHECK_BUDGET_MS || 0);
 if (budget > 0 && totalMs > budget) {

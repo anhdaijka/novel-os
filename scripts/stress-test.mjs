@@ -1,21 +1,15 @@
-import { execFileSync } from 'node:child_process';
-import { appendFileSync, existsSync, mkdtempSync, readFileSync, readdirSync, rmSync, statSync } from 'node:fs';
+import { appendFileSync, existsSync, mkdtempSync, readdirSync, rmSync, statSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { performance } from 'node:perf_hooks';
 import { fileURLToPath } from 'node:url';
+import { runStory } from './lib/story-cli.mjs';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
-const lock = JSON.parse(readFileSync(join(root, 'config/upstreams.json'), 'utf8'));
-const spec = `github:${lock.storySkills.repo}#${lock.storySkills.commit}`;
-const npx = process.platform === 'win32' ? 'npx.cmd' : 'npx';
 const temp = mkdtempSync(join(tmpdir(), 'novel-os-stress-'));
 
 function story(args, cwd, quiet = true) {
-  return execFileSync(npx, ['--yes', '--package', spec, 'story', ...args], {
-    cwd,
-    stdio: quiet ? 'ignore' : 'inherit'
-  });
+  return runStory(root, args, { cwd, stdio: quiet ? 'ignore' : 'inherit' });
 }
 
 function findStoryDir(parent) {
@@ -28,7 +22,7 @@ function findStoryDir(parent) {
 }
 
 try {
-  console.log('Creating temporary Story Skills fixture...');
+  console.log('Creating temporary Story Skills fixture with local pinned CLI...');
   story([
     'init', 'Novel OS Stress',
     '--genre', 'mystery',

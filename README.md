@@ -60,7 +60,7 @@ cd novel-os
 npm run bootstrap
 ```
 
-`bootstrap` installs pinned upstream Story Skills and the selected jwynia fiction skills into `.agents/skills/`. Generated skill files are intentionally git-ignored; pinned versions live in `config/upstreams.json`.
+`bootstrap` copies pinned upstream Story Skills and selected jwynia fiction skills into `.agents/skills/`. Generated skill files are git-ignored; pins live in `config/upstreams.json`. The bundled upstream `story-maintenance/scripts/story.js` becomes the local CLI, so normal story commands do not repeatedly download packages.
 
 Initialize a story into this repository root:
 
@@ -81,7 +81,7 @@ Open the repository root as both your Antigravity workspace and Obsidian vault. 
 
 ## Agent roles
 
-Reusable bounded role prompts live under [`prompts/`](prompts/README.md): Director, Planner, Writer, Reviewer and Researcher. These prompts complement rather than replace `.agents/rules/`.
+Reusable bounded role prompts live under [`prompts/`](prompts/README.md): Director, Planner, Writer, Reviewer and Researcher. These complement rather than replace `.agents/rules/`.
 
 ## Optional Better Writing skill
 
@@ -89,7 +89,7 @@ Reusable bounded role prompts live under [`prompts/`](prompts/README.md): Direct
 npm run bootstrap -- --with-better-writing
 ```
 
-Use it selectively for prose polish after story/continuity issues are already resolved.
+Use it selectively for prose polish after story/continuity issues are resolved.
 
 ## Daily chapter loop
 
@@ -110,19 +110,16 @@ Full workflow: [`docs/WORKFLOW.md`](docs/WORKFLOW.md).
 
 ## Performance / stress testing
 
-Novel OS does not claim to control Gemini latency or guarantee prose quality. It does keep the deterministic/core layer measurable and lightweight. See [`docs/PERFORMANCE.md`](docs/PERFORMANCE.md).
+Novel OS does not claim to control Gemini latency or guarantee prose quality. The deterministic/core layer is measurable and runs locally after bootstrap. See [`docs/PERFORMANCE.md`](docs/PERFORMANCE.md).
 
 ```bash
-# isolated temporary 3-chapter lifecycle fixture
 npm run stress:test
-
-# after a real story has been initialized
-npm run perf:check
+npm run perf:check  # after a real story has been initialized
 ```
 
 ## Story CLI
 
-The CLI is pinned through `config/upstreams.json` and invoked directly from GitHub; it is not assumed to be globally installed.
+All normal CLI commands use the pinned local Story Skills fallback installed by bootstrap:
 
 ```bash
 npm run story -- validate .
@@ -186,9 +183,9 @@ Do not auto-upgrade during active drafting. Review changes, update `config/upstr
 
 ## CI
 
-- `story-checks.yml` validates initialized stories on pushes/PRs.
+- `story-checks.yml` bootstraps the pinned local CLI and validates initialized stories on pushes/PRs.
 - `tooling-smoke.yml` verifies pinned skill installation on Ubuntu and Windows.
-- `novel-os-stress.yml` creates a temporary linked three-chapter project and runs the maintenance pipeline.
+- `novel-os-stress.yml` bootstraps and creates a temporary linked three-chapter project before running the maintenance pipeline.
 
 ## Where to start reading
 
