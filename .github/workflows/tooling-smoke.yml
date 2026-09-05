@@ -4,12 +4,18 @@ on:
   push:
     paths:
       - 'scripts/**'
+      - 'prompts/**'
+      - 'templates/**'
+      - 'author/session-state.md'
       - 'config/upstreams.json'
       - 'package.json'
       - '.github/workflows/tooling-smoke.yml'
   pull_request:
     paths:
       - 'scripts/**'
+      - 'prompts/**'
+      - 'templates/**'
+      - 'author/session-state.md'
       - 'config/upstreams.json'
       - 'package.json'
       - '.github/workflows/tooling-smoke.yml'
@@ -30,6 +36,8 @@ jobs:
         run: npm run tooling:check
       - name: Install pinned skills
         run: npm run bootstrap -- --clean
+      - name: Run Novel OS doctor
+        run: npm run os:doctor
       - name: Verify core Story Skill
         shell: bash
         run: test -f .agents/skills/story-init/SKILL.md

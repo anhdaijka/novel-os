@@ -9,10 +9,15 @@
 - [[author/style-bible|Style Bible]]
 - [[author/boundaries|Boundaries]]
 - [[author/decisions|Author Decisions]]
+- [[author/session-state|Session State (non-canonical)]]
 - [[continuity/state|Continuity State]]
 - [[plot/timeline|Timeline]]
 - [[docs/WORKFLOW|Chapter Workflow]]
+- [[docs/QUALITY_GATES|Quality Gates]]
+- [[docs/SESSION_OPERATIONS|Session Operations]]
+- [[docs/MODEL_POLICY|Model Policy]]
 - [[prompts/README|Agent Role Prompts]]
+- [[prompts/session/README|Session Prompts]]
 
 ## Characters
 
@@ -71,6 +76,7 @@ SORT file.mtime DESC
 ## Health commands
 
 ```bash
+npm run os:doctor
 npm run story:check
 npm run story:doctor
 npm run story:next
