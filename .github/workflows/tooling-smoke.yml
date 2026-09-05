@@ -8,6 +8,7 @@ on:
       - 'templates/**'
       - 'author/session-state.md'
       - 'config/upstreams.json'
+      - 'config/optional-tools.json'
       - 'package.json'
       - '.github/workflows/tooling-smoke.yml'
   pull_request:
@@ -17,6 +18,7 @@ on:
       - 'templates/**'
       - 'author/session-state.md'
       - 'config/upstreams.json'
+      - 'config/optional-tools.json'
       - 'package.json'
       - '.github/workflows/tooling-smoke.yml'
   workflow_dispatch:
@@ -34,6 +36,8 @@ jobs:
           node-version: '20'
       - name: Check local tooling
         run: npm run tooling:check
+      - name: Detect optional capabilities
+        run: npm run capabilities
       - name: Install pinned skills
         run: npm run bootstrap -- --clean
       - name: Run Novel OS doctor
