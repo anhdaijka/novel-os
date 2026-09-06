@@ -228,3 +228,51 @@ Decisions below were explicitly accepted during discovery. Future agents must no
 - **Decision:** The series may eventually explain what grandfather knew, why he refused certain matters and how some patterns recur without fully explaining what happens after death.
 - **Implications:** Readers may debate individual events, but the cumulative series should not collapse into “everything might have been hallucination.” Something beyond current human explanation should remain strongly plausible.
 - **Supersedes:** none
+
+### D-029 — Hometown geography
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** Khanh's hometown is a fictional semi-urbanizing locality on the former Bắc Giang side of the contemporary Bắc Ninh region, within roughly 1–2 hours of Hanoi.
+- **Implications:** Real higher-level geography may be used while local villages, shrines, cemeteries, scandals and occult incidents can be fictionalized. The setting combines Kinh Bắc/lowland cultural memory with northern-midland terrain, industrialization and changing land use.
+- **Supersedes:** none
+
+### D-030 — Market and votive-paper economy
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** The family shop sits beside a market crossroads whose wholesale food/logistics activity can begin before dawn. The shop mainly retails and customizes votive goods and sources generic stock through wholesale networks, including plausible links toward Song Hồ / Đông Hồ.
+- **Implications:** Real production areas remain ordinary commercial places, not cursed centers. The market's normal night activity is part of the horror logic because strange sounds and people often have mundane explanations.
+- **Supersedes:** none
+
+### D-031 — Opening season and sensory setting
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** Case Zero opens in late winter / early spring around Rằm tháng Giêng, using damp cold, drizzle, nồm, festival traffic and crowded ritual-season commerce rather than the obvious Rằm tháng Bảy ghost-story opening.
+- **Implications:** Seasonal time should visibly pass across the series. Horror palette stays grounded in fluorescent light, colorful paper, gray ash, damp surfaces, traffic, market smell and ordinary Northern Vietnamese soundscape rather than generic gothic coding.
+- **Supersedes:** none
+
+### D-032 — Living traditions are not magic systems
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** Real Buddhist, folk-religious, Thờ Mẫu and local ritual traditions must be treated as living cultural/religious practices rather than interchangeable occult mechanics.
+- **Implications:** Distinguish đình/đền/chùa/phủ/miếu and distinct practitioner roles. Fictional malicious cults, secret rituals or scandals should default to fictional institutions/sites. Individual practitioners may be mistaken, exploitative or good without the tradition itself being framed as evil.
+- **Supersedes:** none
+
+### D-033 — Cultural research epistemology
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** Setting research must separate research fact, oral/community testimony, character belief, observed phenomenon and author-canon supernatural rule.
+- **Implications:** A belief or ritual is not supernatural evidence. Specific funeral, ancestor, memorial, burial, grave-moving or regional practices require case-level research. When fictionalizing a real practice, record real basis, fictional departure, reason and reader risk.
+- **Supersedes:** none
+
+### D-034 — Regional expansion requires specific research
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** The series may expand into nearby northern midland/mountain provinces and later farther across northern Vietnam, but ethnic-minority settings are high-research zones.
+- **Implications:** Never write generic `người dân tộc` culture or turn real Tày/Nùng/Dao/etc. traditions into a monster catalogue. Identify community, geography and source basis before use.
+- **Supersedes:** none
