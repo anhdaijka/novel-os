@@ -156,3 +156,75 @@ Decisions below were explicitly accepted during discovery. Future agents must no
 - **Decision:** Cases are separated by real life. There may be days, weeks or months between them. Supporting characters continue their jobs, families and problems when no case is active.
 - **Implications:** No mandatory ghost-hunting team and no relentless case-of-the-week cadence.
 - **Supersedes:** none
+
+### D-020 — Volume architecture
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** Organize the long series into Volumes rather than one undifferentiated run. A working scale is roughly 35–55 chapters per Volume, with short, medium and major cases of different lengths.
+- **Implications:** Chapter and case counts are rhythm guides, not quotas. Ordinary-life chapters and uncanny incidents that never become cases are valid.
+- **Supersedes:** none
+
+### D-021 — Macro mystery is a pattern, not a final boss
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** A long-range macro mystery exists around present-day phenomena that sometimes echo grandfather's old records, but only a minority of cases need genuine connection.
+- **Implications:** Independent cases remain important. False connections and Khanh overfitting patterns are allowed. Do not collapse the whole series into one ancient demon, conspiracy or supernatural organization.
+- **Supersedes:** none
+
+### D-022 — Preferred macro direction
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** The preferred macro direction is a hybrid of grandfather's recorded refusals (`Không nhận lễ`, `Không xem`, `Không can thiệp`) and a thematic pattern of truths that the living tried to bury but which leave returning traces.
+- **Implications:** Grandfather knew more than Khanh but did not know everything. Different refusals may have different reasons. Identity uncertainty — “who is actually speaking?” — becomes a later escalation rather than an early cosmological answer.
+- **Supersedes:** none
+
+### D-023 — Depth escalation, not power escalation
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** Escalation should move from isolated anomalies toward patterns, conflicting testimony, historical repetition, identity uncertainty and uncertainty about the source of communication.
+- **Implications:** Do not default to ma → quỷ → đại quỷ → thần, bloodline powers, magical levels or supernatural combat. Strongly supernatural cases remain rare and exceptional.
+- **Supersedes:** none
+
+### D-024 — Japan returns through ordinary life
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** Japan may return as a substantial arc only after the Vietnam-side identity is established, tentatively Volume 3 or later, through a plausible work reason such as business travel or a short onsite assignment.
+- **Implications:** Japanese strange experiences do not need to share one entity or conspiracy with Vietnamese cases. Cultural interpretation of ambiguous contact may become the deeper connection.
+- **Supersedes:** none
+
+### D-025 — Do not confirm Khanh as a supernatural magnet
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** The series must preserve ordinary explanations for why Khanh encounters more strange stories: attention, family network, work, social word-of-mouth and selection bias.
+- **Implications:** Khanh may ask “why me?” without the narrative confirming chosen-one logic. Slow word-of-mouth can cause people to seek him out, but he does not charge money or turn it into a profession.
+- **Supersedes:** none
+
+### D-026 — Provisional Volume themes
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** Volume 1 works under `Những chuyện tưởng đã kết thúc`; Volume 2 under `Người kể không phải lúc nào cũng đáng tin`; Volume 3 under `Ai đang nói?`.
+- **Implications:** Volume 1 emphasizes traces and what the dead leave; Volume 2 tests testimony and eventually causes Khanh to trust a wrong message/interpretation with meaningful consequences; Volume 3 deepens identity horror and may include the work-driven Japan return. Later Volumes stay unlocked.
+- **Supersedes:** none
+
+### D-027 — Khanh's three long arcs
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** Khanh develops across three linked axes: answer-seeking → responsibility for knowledge; cynical avoidance of others' burdens → service without guaranteed reward; need for closure → ability to live honestly with uncertainty.
+- **Implications:** He remains a software engineer. Cases may strain career and life but do not automatically turn him into a spiritual professional.
+- **Supersedes:** none
+
+### D-028 — Macro mystery may remain metaphysically incomplete
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** The series may eventually explain what grandfather knew, why he refused certain matters and how some patterns recur without fully explaining what happens after death.
+- **Implications:** Readers may debate individual events, but the cumulative series should not collapse into “everything might have been hallucination.” Something beyond current human explanation should remain strongly plausible.
+- **Supersedes:** none
