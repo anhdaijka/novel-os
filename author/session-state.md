@@ -7,7 +7,7 @@
 - Current focus: long-form discovery before Story Skills story initialization.
 - Project: `Horrible` — Northern Vietnam horror / spiritual / mystery series.
 - Branch: `story/horrible-development`.
-- Why now: establish series engine, characters, horror language, case architecture, macro direction and cultural setting before committing manuscript canon.
+- Why now: establish series engine, characters, horror language, case architecture, macro direction, cultural setting and supernatural epistemology before committing manuscript canon.
 
 ## Accepted discovery checkpoint
 
@@ -18,6 +18,7 @@
 - Discovery 05: Case Zero beat architecture — accepted with “Việt kiều Nhật” wording amendment.
 - Discovery 06: Hanoi work-life engine / Case 02 candidate — accepted.
 - Discovery 07: long-series architecture / macro mystery — accepted.
+- Discovery 08: Northern Vietnam setting / research bible — accepted.
 - Horror-first language amendment — accepted as project-level principle.
 
 ## Current core facts
@@ -31,6 +32,18 @@
 - Older sister is a primary-school teacher living with her husband in a neighboring district.
 - Hometown female friend works logistics near the market; her family is a major vegetable / food supplier.
 - Grandfather has a surviving younger paternal half-brother who also had related spiritual work.
+
+## Accepted setting direction
+
+- Hometown: fictional semi-urbanizing locality on the former Bắc Giang side of the contemporary Bắc Ninh region, roughly 1–2 hours from Hanoi.
+- Family home/shop: main road beside a busy market crossroads with wholesale food/logistics activity beginning before dawn.
+- Votive-paper business: retail + custom orders + limited finishing/customization, with stock sourced through wholesale networks including plausible links toward Song Hồ / Đông Hồ.
+- Case Zero opens late winter / early spring around Rằm tháng Giêng.
+- Setting must hold Kinh Bắc cultural memory, remaining fields, low hills, waterways, cemeteries, logistics, newer roads, industrialization and modern social life at once.
+- Real living traditions are not interchangeable occult systems.
+- Cultural research separates fact, testimony, character belief, observed phenomenon and author-canon rule.
+- `Culture is not supernatural evidence.`
+- Ethnic-minority settings and specific funeral/ritual practices require case-level research.
 
 ## Accepted case development
 
@@ -92,17 +105,15 @@ Khanh remains a software engineer; investigation may affect career and life but 
 
 ## Blockers / unresolved discovery questions
 
-- Exact hometown name / administrative placement.
+- Exact hometown name.
 - Final prose tense.
-- Northern Vietnam geographic and cultural research bible.
-- Exact fictional/real boundary for local places.
-- Votive-paper commerce and ritual-calendar texture.
-- Funeral, ancestor, temple/pagoda/shrine and practitioner research boundaries.
-- How much regional dialect/register to use without caricature.
+- Detailed supernatural epistemology: hồn/vong, dreams, apparitions, sleep paralysis, possession-like events, object/place hauntings, curses, corpse-reanimation folklore and possible non-human presences.
+- Which supernatural patterns are only folk belief versus actual author-canon rules.
+- How strong direct supernatural experiences may become while preserving ambiguity.
 - Exact final causal models for intentionally ambiguous cases should remain locked once evidence is authored.
 
 ## Suggested next discovery
 
-Discovery 08 — Northern Vietnam Setting & Research Bible.
+Discovery 09 — Supernatural Epistemology & Horror Rules.
 
-Focus: hometown geography; Kinh Bắc / former Bắc Ninh–Bắc Giang texture; market and votive-paper economy; seasons and sensory language; temples, pagodas, shrines, funerals and ancestor practice; regional travel; and rules separating respectful research of living traditions from fictional occult lore.
+Focus: define how the novel distinguishes folk belief, character interpretation, observed phenomenon and true author-level supernatural rules; set boundaries for dreams, apparitions, possession, places, objects, curses, corpse-reanimation folklore, agency of the dead and possible non-human presences without turning the world into a fantasy bestiary.
