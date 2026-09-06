@@ -6,10 +6,19 @@
 
 - Project: `Horrible` — long-running Northern Vietnam horror / spiritual / mystery series.
 - Branch: `story/horrible-development`.
-- Discovery 01–14: accepted.
+- Discovery 01–15: accepted.
 - Horror-first amendment: accepted.
 - Story Skills manuscript canon: **not initialized yet**.
-- Current next step: **Discovery 15 — Short Haunting 03 + Volume 1 Ending Truth Matrix**.
+- Current next step: **Pre-Draft Lock Pass**.
+- Discovery 15 is the **final major pre-draft discovery round** unless drafting exposes a genuinely consequential unresolved design problem.
+
+## Workflow guard against overengineering
+
+- **Plan until the next irreversible mistake is prevented. Draft before planning starts replacing discovery.**
+- **Prose is also research.**
+- The working 46-chapter Volume map is navigation, not a fixed contract.
+- Drafting may justify expansion, compression, reordering or relationship/pacing revisions.
+- Do not create automatic Discovery 16/17/18 rounds before prose exists.
 
 ## Core creative contract
 
@@ -33,64 +42,11 @@ Long arcs:
 2. avoiding other people's burdens → helping when he genuinely can;
 3. demanding closure → living honestly with uncertainty.
 
-## Setting / voice / folklore
-
-- Fictional semi-urbanizing hometown on the former Bắc Giang side of the contemporary Bắc Ninh region, roughly 1–2 hours from Hanoi.
-- Family votive-paper shop beside a busy market crossroads.
-- Case Zero begins late winter / early spring around Rằm tháng Giêng.
-- Real Buddhism, Đạo Mẫu / Thờ Mẫu, ancestor practice and folk ritual are living traditions, not interchangeable occult mechanics.
-- Close third-person limited around Khanh; contemporary neutral-to-Northern Vietnamese; medium prose density; concrete wrongness before interpretation.
-- Embedded ghost stories told by other people are a major horror channel and may be exaggerated, wrong, contradictory or genuinely supernatural.
-- Folklore Atlas tracks provenance/context, not monster taxonomy.
-- Absence of established supernatural ability is not permission to invent ability.
-
-## Cast architecture
-
-Core law: **cast follows life topology, not plot convenience**.
-
-Information remains socially distributed. No standing paranormal team and no universal lore database.
-
-Home/Case Zero ecosystem: Lan, Hùng, Hạnh, Mai.
-
-Aftermath cultural/family expansion: Thủy, Nhân, introduced only through ordinary life.
-
-Hanoi/Case 02 ecosystem: Nam, Hà, Đức Anh, light Keisuke contact.
-
-Duy and Quân are later/outer-edge introductions; Long is not forced into early cases.
-
-Detailed cast identity: `development/horrible/discovery-12-cast-identity.md`.
-Detailed deployment: `development/horrible/discovery-13-volume1-cast-deployment.md`.
-
-## Accepted cases / arcs
-
-### Case Zero — `Đơn hàng cho người chưa chết`
-
-Opening full case. Specific votive order is placed for a living man; he dies four days later. Human/family history explains much of the pressure and current death remains plausibly accidental, while purchaser identity stays unresolved under several viable models. Grandfather notebook appears near the end with a refusal note such as `Không nhận lễ`.
-
-### Case 02 — `Tài khoản của người chết`
-
-Modern Hanoi/work case. Dead engineer credentials appear in a production incident. Human misuse explains most of the technical mystery; a later separate-system residue remains difficult to attribute. No direct Case Zero/grandfather conspiracy link.
-
-### Short Haunting 03 — working shell `Người về ăn giỗ`
-
-Not treated as a third investigation.
-
-Accepted function/shell:
-- ordinary anniversary/death-remembrance context;
-- no unresolved murder required;
-- one strongly uncanny near-full apparition experienced by Khanh;
-- an ordinary unfinished promise/object/relationship duty;
-- Khanh helps because the action is worthwhile even if supernatural proof is impossible;
-- whether phenomena stop afterward remains unproven;
-- at most a very light, ambiguous grandfather-note overlap.
-
-Exact deceased identity, family structure, promise, apparition mechanics, cultural details and truth models remain open for Discovery 15.
-
 ## Accepted Volume 1 architecture
 
 Working theme: **`Những chuyện tưởng đã kết thúc`**.
 
-Working size: roughly **44–48 chapters**, currently mapped as **46**.
+Working scale: roughly **44–48 chapters**, currently mapped as **46**, but explicitly flexible during drafting.
 
 | Phase | Chapters | Function |
 |---|---:|---|
@@ -99,42 +55,105 @@ Working size: roughly **44–48 chapters**, currently mapped as **46**.
 | Aftermath | 17–19 | family memory / Thủy-Nhân seed / departure |
 | Hanoi reset | 20–21 | real work/life before anomaly |
 | Case 02 | 22–33 | `Tài khoản của người chết` |
-| Short Haunting | 34–40 | `Người về ăn giỗ` working shell |
+| Short Haunting | 34–40 | `Người về ăn giỗ` |
 | Closing | 41–46 | culture/oral mutation/refusal-note pattern/Khanh begins notes |
 
-Core Volume laws:
+Core laws:
 
-- **Two mysteries are enough. The third supernatural arc does not need to become an investigation.**
-- **The Volume must contain horror even while no case is active.**
-- **A macro pattern may become visible without revealing a macro cause.**
-- **Volume 1 ends with Khanh beginning to record uncertainty, not beginning a career as a ghost investigator.**
+- Two full mysteries are enough.
+- The third supernatural arc is not an investigation.
+- Horror must exist even when no case is active.
+- A macro pattern may become visible without revealing a macro cause.
+- Volume 1 ends with Khanh recording uncertainty, not starting a paranormal career.
 
-Detailed map: `development/horrible/discovery-14-volume1-architecture.md`.
+## Case Zero — `Đơn hàng cho người chưa chết`
 
-## Volume 1 ending
+Opening full case. A specific votive order is placed for a living man; he dies four days later. Human/family history explains much of the pressure and current death remains plausibly accidental, while purchaser identity stays unresolved under several viable models. Grandfather notebook appears near the end with refusal language such as `Không nhận lễ`.
 
-Grandfather's notebooks contain repeated terse refusal language over many years: `Không nhận`, `Không xem`, `Không can thiệp`, `Thôi`, `Để nhà tự giải`, or similar.
+## Case 02 — `Tài khoản của người chết`
 
-The entries cover apparently unrelated matters. Case Zero may appear among them; Case 02 **must not**.
+Modern Hanoi/work case. Dead engineer credentials appear in a production incident. Human misuse explains most of the technical mystery; a later separate-system residue remains difficult to attribute. **Case 02 must never appear in grandfather's notebook or be retrofitted into prophecy.**
 
-The reveal is only that grandfather had an established practice of refusing some matters. Khanh does not yet know why. No prophecy, hidden letter, common entity, final boss or conspiracy is revealed.
+## Short Haunting 03 — `Người về ăn giỗ`
 
-Near the ending Khanh begins a private digital note with fields such as name, date, source, what seems certain and what remains uncertain. This parallels grandfather's notebooks without chosen-heir framing.
+Accepted truth-matrix shell:
+
+- older woman dead roughly 6–8 years;
+- ordinary death, no unresolved murder required;
+- unfinished request to return photographs/letters/personal items to an estranged relative;
+- Khanh enters through ordinary shop/family logistics during a death-anniversary gathering;
+- household belief is mixed rather than unanimous;
+- Khanh sees an ordinary-looking older woman walk through the busy house and initially assumes she is alive;
+- his later description contains one high-value embodied habit/detail associated with the deceased that he had no obvious reason to know;
+- no useful camera evidence;
+- natural models remain possible: misidentification, memory contamination, unnoticed prior exposure, crowd/attention error;
+- no practitioner diagnoses the event;
+- Khanh deliberately does not turn it into a case;
+- surviving family fulfills the promised human action because it is worth doing regardless of supernatural proof;
+- no `siêu thoát` confirmation and no proof that fulfillment stopped the phenomena;
+- later grandfather overlap may use same locality/family name plus `Không xem`, but remains ambiguous.
+
+Default author status: **strongly implied / deliberately not mechanized**.
+
+Detailed file: `development/horrible/discovery-15-short-haunting-and-ending-truth-matrix.md`.
+
+## Volume 1 ending truth boundary
+
+Reader can know with high confidence:
+
+- Case Zero human layer is mostly understood, purchaser unresolved.
+- Case 02 human credential misuse is real, later residue unresolved.
+- Khanh has experienced one direct event he personally finds very hard to naturalize.
+- Grandfather was fallible and sometimes refused, failed or did not know.
+- Grandfather's notebooks contain repeated refusal language across unrelated-looking matters.
+- Case 02 is absent from those records.
+- Khanh begins a private evidence-oriented record.
+
+Reader should still not know:
+
+- whether one cause/entity connects the cases;
+- why grandfather refused specific matters;
+- how communication from the dead works;
+- whether Khanh is unusually sensitive;
+- whether strange stories objectively cluster around him;
+- final afterlife cosmology, supernatural taxonomy or final answer to `Ai đang nói?`.
+
+Khanh's note fields may include: name/title, date, source, what seems certain, what remains uncertain. This visibly parallels grandfather's notebooks without chosen-heir framing.
+
+## Cast / culture reminders
+
+- Cast follows life topology, not plot convenience.
+- Information remains socially distributed; no paranormal strategy team.
+- No character is a universal lore database.
+- Lan is the strongest recurring oral-story source.
+- Mai remains no-default-romance and participates only where local/logistics life gives her reason.
+- Thủy is not a supernatural hotline.
+- Nhân is not an answer database.
+- Real Buddhism, Đạo Mẫu / Thờ Mẫu, ancestor practice and folk ritual remain living traditions, not interchangeable occult systems.
+- Folklore Atlas tracks provenance/context, not monster taxonomy.
 
 ## Research-sensitive items still open
 
-- Exact hometown name.
-- Exact kinship/address term Khanh uses for Nguyễn Văn Nhân.
-- Research-confirmed formal role/title for Bùi Thị Thủy.
-- Exact employer details for Tuấn if needed.
-- Exact police jurisdiction for Long when first used.
-- Case-level ritual/funeral/folklore verification.
-- All detailed Short Haunting 03 cultural and supernatural mechanics.
+Only resolve these when needed by early prose/canon:
 
-## Next discovery
+- exact hometown name;
+- exact kinship/address term Khanh uses for Nguyễn Văn Nhân;
+- research-confirmed formal role/title for Bùi Thị Thủy;
+- exact employer details for Tuấn if needed;
+- exact police jurisdiction for Long when first used;
+- case-level ritual/funeral/folklore details immediately needed by a chapter.
 
-**Discovery 15 — Short Haunting 03 + Volume 1 Ending Truth Matrix.**
+Do not research distant-volume trivia before it becomes relevant.
 
-Design `Người về ăn giỗ` at truth-matrix level: objective human history, family structure, witnesses, apparition evidence, natural and supernatural causal models, unfinished promise/duty, cultural research requirements, grandfather-overlap ambiguity, and exactly what Khanh/reader know at the end of Volume 1.
+## Next step — Pre-Draft Lock Pass
 
-Do not draft chapter prose yet.
+Keep this short and operational:
+
+1. scan accepted development files for contradictions;
+2. separate stable canon candidates from flexible development material;
+3. identify only research blockers needed for Chapter 1 / earliest Case Zero chapters;
+4. initialize Story Skills selectively;
+5. prepare Chapter 1 brief;
+6. draft Chapter 1.
+
+No further large discovery round by default.
