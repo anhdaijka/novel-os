@@ -7,7 +7,7 @@
 - Current focus: long-form discovery before Story Skills story initialization.
 - Project: `Horrible` — Northern Vietnam horror / spiritual / mystery series.
 - Branch: `story/horrible-development`.
-- Why now: establish series engine, characters, horror language, case architecture, macro direction, cultural setting, supernatural epistemology, prose rules and folklore/oral-story engine before committing manuscript canon.
+- Goal before drafting: stabilize series engine, Case Zero, macro direction, cultural/folklore rules, supernatural epistemology, prose voice and recurring cast deployment.
 
 ## Accepted discovery checkpoint
 
@@ -15,182 +15,127 @@
 - Discovery 02: Case Zero shell — accepted.
 - Discovery 03: Case Zero truth matrix — accepted.
 - Discovery 04: supporting cast / relationship network — accepted with amendments.
-- Discovery 05: Case Zero beat architecture — accepted with “Việt kiều Nhật” wording amendment.
-- Discovery 06: Hanoi work-life engine / Case 02 candidate — accepted.
+- Discovery 05: Case Zero beat architecture — accepted with `Việt kiều Nhật` wording amendment.
+- Discovery 06: Hanoi work-life engine / Case 02 — accepted.
 - Discovery 07: long-series architecture / macro mystery — accepted.
 - Discovery 08: Northern Vietnam setting / research bible — accepted.
 - Discovery 09: supernatural epistemology / horror rules — accepted.
 - Discovery 10: narrative voice / prose / horror language — accepted.
-- Discovery 10 amendment: cultural celebration + embedded oral-horror / folklore storytelling layer — accepted.
+- Discovery 10 amendment: cultural celebration + embedded oral-horror layer — accepted.
 - Discovery 11: Folklore Atlas & Embedded Ghost Story Engine — accepted.
+- Discovery 12: Cast Naming & Character Identity Pass — accepted.
 - Horror-first language amendment — accepted as project-level principle.
 
-## Current core facts
+## Core project rules
 
-- Protagonist: Khanh, male, 27, software engineer.
-- Recently returned from years of onsite work in Japan.
-- Home for a few weeks before returning to the Hanoi office.
-- Skeptical believer; no confirmed supernatural power.
-- Family runs a long-established votive-paper shop beside a busy market crossroads.
-- Deceased grandfather was regionally well known for spiritual / divination / ritual work.
-- Older sister is a primary-school teacher living with her husband in a neighboring district.
-- Hometown female friend works logistics near the market; her family is a major vegetable / food supplier.
-- Grandfather has a surviving younger paternal half-brother who also had related spiritual work.
+- Horror / spiritual experience first; mystery second.
+- Mystery must sharpen the horror, never sterilize it.
+- Solving mechanism does not necessarily solve haunting.
+- Life supplies the analogy; evidence supplies the answer.
+- Culture is not supernatural evidence.
+- Folk belief / character interpretation / observed phenomenon / author-canon rule remain separate layers.
+- Not every case resolves, not every case is supernatural, not every ghost is malicious, and not every uncanny event is a clue.
+- Stories told by other characters are a major independent horror channel and may be exaggerated, wrong, contradictory or genuinely supernatural.
+- Folklore Atlas is provenance/context tracking, not a bestiary.
+- Absence of established supernatural ability is not permission to invent ability.
+- No default chosen-one, bloodline-power, demon-boss or supernatural-combat escalation.
+- Khanh remains a working software engineer with a real family/work/social life.
 
-## Accepted setting direction
+## Setting / cultural direction
 
-- Hometown: fictional semi-urbanizing locality on the former Bắc Giang side of the contemporary Bắc Ninh region, roughly 1–2 hours from Hanoi.
-- Family home/shop: main road beside a busy market crossroads with wholesale food/logistics activity beginning before dawn.
-- Votive-paper business: retail + custom orders + limited finishing/customization, with stock sourced through wholesale networks including plausible links toward Song Hồ / Đông Hồ.
-- Case Zero opens late winter / early spring around Rằm tháng Giêng.
-- Setting must hold Kinh Bắc cultural memory, remaining fields, low hills, waterways, cemeteries, logistics, newer roads, industrialization and modern social life at once.
-- Real living traditions are not interchangeable occult systems.
-- Cultural research separates fact, testimony, character belief, observed phenomenon and author-canon rule.
-- `Culture is not supernatural evidence.`
-- Ethnic-minority settings and specific funeral/ritual practices require case-level research.
+- Hometown: fictional semi-urbanizing locality on the former Bắc Giang side of the contemporary Bắc Ninh region, around 1–2 hours from Hanoi.
+- Family home/shop: main road at a busy market crossroads with pre-dawn food/logistics activity.
+- Family business: retail/custom votive-paper shop with wholesale sourcing links including plausible Song Hồ / Đông Hồ supply routes.
+- Case Zero begins late winter / early spring around Rằm tháng Giêng.
+- Kinh Bắc cultural memory coexists with industrialization, logistics, remaining fields, waterways, low hills, cemeteries, roads and ordinary modern life.
+- Real Buddhism, Đạo Mẫu / Thờ Mẫu, ancestor practice and folk ritual are living traditions, not interchangeable occult mechanics.
+- Specific funeral, ritual, ethnic-minority and regional folklore details require case-level research.
 
-## Accepted supernatural epistemology
+## Supernatural direction
 
-- The series world is compatible with genuine supernatural reality, but cosmology remains incomplete.
-- Narration normally reports observed experience rather than certifying labels such as `ma`, `vong`, `quỷ`, `căn` or `nhập` as objective fact.
-- The dead are not automatically truthful, omniscient, benevolent, evil or aware of everything after death.
-- A dead person may lie, omit, manipulate, misunderstand, protect someone or pursue unresolved goals.
-- Dreams are low-confidence evidence and never a clean answer cheat; shared/knowledge-bearing dreams may be strongly uncanny.
-- Sleep paralysis and psychiatric/neurological explanations receive serious consideration rather than being treated as proof of ghosts.
-- Full apparitions are allowed and may look ordinary; camera visibility and physical interaction have no universal rule.
-- Objects and places may be associated with phenomena without automatically being literal spirit containers or cursed hotspots.
-- Possession-like events are described phenomenologically before taxonomy; fraud, psychology, medicine, cultural interpretation and supernatural models may compete.
-- `Quỷ nhập tràng` / corpse-reanimation material is rare, restrained major horror rather than zombie/action spectacle.
-- Possibly non-human presences may exist, but no early bestiary or species taxonomy is established.
-- Ritual efficacy is not programmable or guaranteed. Skilled practitioners may be wrong; grandfather was sometimes wrong.
-- Khanh is not confirmed to have `căn`, supernatural sensitivity or chosen-one status.
-- Direct supernatural killing is possible in principle but very rare; causal-chain harm is more common.
-- Nhân quả remains moral/spiritual language rather than an observable reward/punishment engine.
-- Every important phenomenon separates observed fact, witnesses, physical evidence, natural models, folk interpretations, supernatural models and private author status.
-- **Absence of established ability is not permission to invent ability.** Power/capability escalation requires explicit evidence and author-level approval.
+- Genuine supernatural reality remains strongly plausible at series level, while cosmology stays incomplete.
+- The dead are not automatically truthful, omniscient, benevolent or evil.
+- Dreams are low-confidence evidence and never clean answer cheats.
+- Full apparitions are allowed and may look ordinary.
+- Camera/electronics, objects, places, possession-like events, curses and rituals have no universal programmable rules.
+- `Quỷ nhập tràng` / corpse-reanimation material is rare major horror, not zombie action.
+- Possibly non-human presences may exist without early taxonomy.
+- Practitioners can be skilled and wrong; grandfather was sometimes wrong.
+- Khanh is not confirmed to have `căn` or supernatural sensitivity.
 
-Detailed operational rules: `development/horrible/discovery-09-supernatural-epistemology.md`.
+Detailed operational file: `development/horrible/discovery-09-supernatural-epistemology.md`.
 
-## Accepted narrative voice
+## Narrative voice
 
 - Close third-person limited around Khanh; one consciousness per scene.
-- Contemporary Vietnamese, neutral-to-Northern register; natural present-tense-like flow rather than excessive `đã`.
-- Medium prose density; lyrical prose is selective and earned.
+- Contemporary Vietnamese, neutral-to-Northern register, natural present-tense-like flow.
+- Medium prose density; lyrical only when earned.
 - `Describe the wrongness before naming the horror.`
 - `Concrete first, interpretation second.`
 - `Fear lives in interruption of normal patterns.`
 - `The dead should feel like former people before supernatural objects.`
-- Body response carries fear before abstract labels.
-- Apparitions may look ordinary; horror does not require grotesque design or jumpscare grammar.
-- Technical prose is accurate but light; Khanh remains an engineer rather than a Sherlock narrator.
-- Humor is relational and moderate; Khanh is not a quip machine.
-- Dialogue is natural to family/work/social relationships rather than lore delivery.
-- Avoid generic AI abstraction, mechanical aphorisms/triads, over-explanation, imported gothic language and repetitive cliffhanger phrasing.
-- Numbered chapters with short optional image/object titles are preferred.
+- Technical prose accurate but light; humor relational; no generic AI horror abstraction or repetitive procedural/cliffhanger rhythm.
 
-Detailed style rules: `author/style-bible.md` and `development/horrible/discovery-10-voice-and-embedded-folklore.md`.
+## Long-series direction
 
-## Accepted cultural / embedded-story layer
-
-- The novel should actively help readers encounter the beauty, complexity, contradictions and darker human edges of Vietnamese Buddhism, Đạo Mẫu / Thờ Mẫu, ancestor practice, folk belief, ritual culture, votive-paper life, funeral/memorial practice and Northern Vietnamese oral supernatural lore.
-- Darker material may include exploitation, commercialization, fraud, fear, social pressure, stigma and sincere but mistaken belief; it must be attached to specific people/situations rather than presented as proof that a living tradition is inherently sinister.
-- Stories told by people other than Khanh are a major independent horror channel.
-- Customers, relatives, market contacts, ritual practitioners, colleagues and others may tell complete or partial ghost stories.
-- Oral stories may be exaggerated, mistaken, contradictory, hearsay-driven or genuinely supernatural.
-- A told story is testimony, not objective author canon.
-- Not every oral story becomes a case, clue or macro connection. Some simply scare, entertain, preserve oral storytelling, show culture or widen the spiritual world.
-- Oral tales may use folklore terminology and apparent rules more freely because they inherit the teller's belief system.
-- If an oral-story claim later crosses into the main plot, it must be re-evaluated through the normal evidence / author-status framework.
-- Northern Vietnamese concepts of ghosts, spirits, demons, corpse phenomena and possible non-human beings are valuable story material, but named folklore categories are not automatically fixed species canon.
-- This layer is important for preventing `Horrible` from becoming too purely procedural-investigative.
-
-## Accepted Folklore Atlas / story engine
-
-- The Folklore Atlas is provenance and cultural-context tracking, not a monster taxonomy.
-- Every entry should track region/community, source quality, religious/folk/oral/media layer, variants, confusions, real cultural context, fictional-use boundary, sensitivity risk, likely believers and author-universe status.
-- Modern viral/media retellings may document how folklore circulates today, but do not automatically establish historical or regional tradition.
-- Weakly sourced but useful concepts should be framed as hearsay, fictional local lore or explicitly invented horror rather than false cultural fact.
-- Main initial clusters include `hồn/vong`, `oan hồn`, `cô hồn`, Buddhist-linked `ngạ quỷ`, dreams of the dead, `ma trơi`, `bóng đè`, possession-like terms, `trùng tang`, research-required `Thần Trùng`, rare major-horror `quỷ nhập tràng`, Northern oral-story candidate `chó đội nón mê`, and high-research umbrella terms such as `tinh/yêu/quỷ`.
-- Region-sensitive terms such as `ma da`, `ma xó` and `ma giữ của` require provenance before Northern-core use.
-- Hầu đồng is not default horror possession; Buddhism is not an anti-ghost magic system.
-- Embedded stories can temporarily be more supernatural than main-narrative reality because they belong to a teller's belief and memory. Their apparent powers/rules do not carry into reality-layer canon automatically.
-- Most embedded stories do not need payoff. Some may return later as planned story bridges or false patterns.
-- Initial Volume 1 candidate bank includes: night vegetable-truck dog story, postmortem phone call, overlapping dreams, cemetery lights / `ma trơi`, family fear of `trùng`, a thanh đồng who is mostly wrong but knows one impossible detail, and a folklore retelling of grandfather refusing a household.
-
-Detailed Atlas / engine: `development/horrible/discovery-11-folklore-atlas.md`.
-
-## Accepted case development
-
-### Case Zero
-
-“The order for someone not yet dead.”
-
-Human death mechanism is plausibly accidental. A buried family history from roughly thirty years earlier explains much of the pressure around the death, but the identity of the woman who placed the order remains unresolved under multiple viable models.
-
-### Case 02
-
-“Tài khoản của người chết.” A dead engineer's credentials appear in a modern workplace system. Human account misuse explains most of the incident; a final technical residue remains unverified and uncanny.
-
-## Accepted long-series direction
-
-- Organize the series into Volumes, roughly 35–55 chapters as a working scale rather than a quota.
-- Cases vary in length and are separated by ordinary life, aftermath, family, work and travel.
-- Macro mystery is a pattern question, not a final-boss question.
+- Volumes rather than one endless chain; working scale roughly 35–55 chapters per Volume, not a quota.
 - Preferred macro direction: unfinished truths + matters grandfather once refused to handle.
-- Only a minority of cases need genuine macro connection; false connections and Khanh overfitting patterns are allowed.
-- Grandfather knew more than Khanh but did not know everything and left no prophetic message specifically for Khanh.
-- Escalation is by depth: anomaly → pattern → conflicting testimony → historical repetition → identity uncertainty → uncertainty about who or what is communicating.
-- No default entity hierarchy, demon king, bloodline power or supernatural combat progression.
-- Japan may return in Volume 3 or later through ordinary work reasons; it need not share one entity/conspiracy with Vietnam cases.
-- Do not confirm that strange events objectively cluster around Khanh. Selection bias, network effects and his willingness to follow questions remain viable explanations.
-- Khanh does not become a paid paranormal investigator or publicly famous ghost hunter.
-- No required single human or supernatural final antagonist.
+- Only a minority of cases need real macro connection; false connections and Khanh overfitting are allowed.
+- Escalation by depth/uncertainty, not supernatural power level.
+- Japan can return in Volume 3 or later through ordinary work reasons.
+- Do not confirm Khanh as a supernatural magnet.
+- No required single final villain/entity.
+- Provisional thematic trajectory:
+  - Volume 1 — `Những chuyện tưởng đã kết thúc`.
+  - Volume 2 — `Người kể không phải lúc nào cũng đáng tin`.
+  - Volume 3 — `Ai đang nói?`.
 
-### Provisional thematic trajectory
+## Accepted cases
 
-- Volume 1: `Những chuyện tưởng đã kết thúc` — traces, records, grief, what the dead leave behind.
-- Volume 2: `Người kể không phải lúc nào cũng đáng tin` — testimony, dreams, fraud, possession-like ambiguity; Khanh eventually trusts a wrong message/interpretation and causes a meaningful consequence.
-- Volume 3: `Ai đang nói?` — identity horror, mimicry hypotheses, mismatched memories, stronger uncanny experience and possible work-driven return to Japan.
-- Later Volumes remain intentionally unlocked.
+### Case Zero — `Đơn hàng cho người chưa chết`
 
-## Khanh's long arcs
+About 12–16 chapters. A highly specific votive order is placed for a living man; he dies four days later. Khanh initially only wants to identify the customer. Human/family history explains much of the pressure, current death remains plausibly accidental, but the purchaser identity remains unresolved under multiple viable models. Grandfather's notebook enters only near the end with the dead woman's name and a terse refusal note such as `Không nhận lễ`.
 
-1. From wanting answers to understanding the responsibility created by knowledge.
-2. From dismissing other people's burdens as unnecessary trouble to helping when he genuinely can without expecting reward.
-3. From demanding closure to living with uncertainty without lying to himself.
+### Case 02 — `Tài khoản của người chết`
 
-Khanh remains a software engineer; investigation may affect career and life but does not automatically replace his profession.
+Modern Hanoi/work case. A dead engineer's credentials appear in a production incident. Human account misuse explains most of the technical mystery; a later system residue remains difficult to attribute. No direct Case Zero/grandfather conspiracy connection.
 
-## Current narrative rules
+## Accepted recurring cast
 
-- Horror first, mystery second.
-- Mystery must sharpen the horror, never sterilize it.
-- Solving the mechanism does not necessarily solve the haunting.
-- Life supplies the analogy; evidence supplies the answer.
-- Not every case must resolve.
-- Not every case must contain a crime.
-- Not every case must be supernatural.
-- Not every ghost is malicious, truthful or useful.
-- Not every uncanny event is a clue.
-- Not every ghost story told in the novel needs verification or payoff.
-- Supporting characters live outside cases.
-- Authority increases confidence, never converts interpretation into objective truth.
-- Nhân quả is not a visible supernatural scoreboard.
-- No default chosen-one / supernatural-combat escalation.
+- Nguyễn Minh Khanh — 27, software engineer; causal/root-cause thinker.
+- Nguyễn Văn Hùng — father, ~57; practical construction/technical background; silence-as-protection tendency.
+- Trần Thị Lan — mother, ~55; runs votive shop; strong people-reading and oral-horror storyteller.
+- Nguyễn Minh Hạnh — sister, ~35; primary-school teacher; practical affection toward Khanh.
+- Lê Đức Tuấn — brother-in-law, ~37; technical/operations work; civil but naturally distant with Khanh.
+- Hoàng Ngọc Mai — 27; hometown logistics/food-wholesale operations; practical half-believer; no default romance.
+- Nguyễn Văn Nhân — mid-70s; grandfather's younger paternal half-brother; related spiritual/ritual experience; cautious and non-omniscient.
+- Bùi Thị Thủy — ~49; practitioner associated with Thờ Mẫu plus ordinary shopkeeper; exact formal title requires research.
+- Phạm Quốc Duy — early 30s ER doctor; evidence-threshold skeptic.
+- Đỗ Minh Quân — ~24; genuine-believer paranormal content creator; finds leads but overstates certainty.
+- Trần Hoàng Nam — 35; pragmatic Engineering Team Lead.
+- Vũ Đức Anh — 24; fast, online junior engineer; digital-folklore source and pattern overfitter.
+- Lê Thu Hà — 28; BA/BrSE; strong source-qualification/stakeholder thinker; no default romance.
+- Sato Keisuke (佐藤圭介) — early 30s; trusted Japan-side engineer/PM counterpart.
+- Đặng Việt Long — mid-30s recurring police contact; distinguishes observation from interpretation and provides no illegal database shortcut.
 
-## Blockers / unresolved discovery questions
+Detailed cast file: `development/horrible/discovery-12-cast-identity.md`.
+
+## Cast architecture rule
+
+Conflict should emerge from different standards of knowing, not repetitive `ma có thật / ma không tồn tại` debate. No character is a universal folklore, ritual or supernatural answer database. Every recurring character retains life outside Khanh and belongs to a distinct storytelling ecosystem.
+
+## Research-sensitive identity items still open
 
 - Exact hometown name.
-- Names and full identities of recurring supporting cast.
-- Appearance, habits, ordinary wants, contradictions and private pressures for recurring cast.
-- Relationship-specific dialogue voices.
-- Each recurring character's belief profile and storytelling profile: what they trust, dismiss, embellish or refuse to tell.
-- Exact final causal models for intentionally ambiguous cases should remain locked once evidence is authored.
+- Exact family address/kinship term Khanh uses for Nguyễn Văn Nhân.
+- Research-confirmed formal title/role for Bùi Thị Thủy inside a real living tradition.
+- Exact employer/job details for Tuấn if needed in scene.
+- Exact police jurisdiction for Long when first introduced.
 
 ## Suggested next discovery
 
-Discovery 12 — Cast Naming & Character Identity Pass.
+Discovery 13 — Volume 1 Cast Deployment & Relationship Arcs.
 
-Focus: make the recurring cast concrete enough for scene-level drafting: names, ages, visual identity, habits, ordinary goals, contradictions, relationship voice, spiritual worldview and role in the oral-story ecosystem.
+Focus: who appears during homecoming/Case Zero, who should be delayed, who carries which embedded stories, how family/friend/work relationships change through Case Zero → interlude → Hanoi return → Case 02, and how to avoid turning the ensemble into a fixed ghost-hunting team.
 
-Story Skills canon still waits until the cast pass and remaining pre-draft checks are stable.
+Story Skills canon still waits until Volume 1 deployment and remaining pre-draft checks are stable.
