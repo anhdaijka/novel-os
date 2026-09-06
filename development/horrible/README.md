@@ -22,6 +22,7 @@ This workspace records accepted discovery for the real novel project `Horrible` 
 - Discovery 11 — Folklore Atlas & Embedded Ghost Story Engine: accepted.
 - Discovery 12 — Cast Naming & Character Identity Pass: accepted.
 - Discovery 13 — Volume 1 Cast Deployment & Relationship Arcs: accepted.
+- Discovery 14 — Volume 1 Architecture & Case Map: accepted.
 - Series-language amendment — horror/spiritual experience must remain primary over procedural mystery: accepted.
 
 ## Development documents
@@ -36,6 +37,7 @@ This workspace records accepted discovery for the real novel project `Horrible` 
 - `discovery-11-folklore-atlas.md` — folklore provenance and embedded-story engine.
 - `discovery-12-cast-identity.md` — recurring cast identities and epistemic styles.
 - `discovery-13-volume1-cast-deployment.md` — Volume 1 appearance timing, relationship arcs, information topology and embedded-story distribution.
+- `discovery-14-volume1-architecture.md` — accepted 46-chapter working map, two-full-case structure, non-investigative short haunting and Volume-ending refusal-pattern reveal.
 
 Project-level accepted rules also live in:
 
@@ -44,6 +46,7 @@ Project-level accepted rules also live in:
 - `author/style-bible.md`
 - `author/decisions.md`
 - `author/decision-addenda/discovery-13.md`
+- `author/decision-addenda/discovery-14.md`
 - `author/session-state.md`
 
 ## Canon boundary
@@ -65,20 +68,34 @@ Core rules:
 - Cast follows life topology, not plot convenience.
 - Information remains socially distributed.
 
-## Volume 1 cast topology
+## Volume 1 accepted architecture
 
-Homecoming / Case Zero centers Khanh, Lan, Hùng, Mai and Hạnh. Mai recedes as the local curiosity becomes a painful family matter. Thủy and Nhân enter only after the Case Zero core rather than solving it.
+Working scale: roughly 44–48 chapters, currently mapped as **46**.
 
-After roughly three chapter-equivalents of real-life transition, the story returns to Hanoi and shifts to Nam, Hà, Đức Anh and light Keisuke contact. Case 02 belongs to the workplace ecosystem. Duy and Quân are later/outer-edge introductions; Long is not forced into either early case.
+1. `Trở về` — Ch.1–3: home/shop/family/order setup.
+2. Case Zero — Ch.4–16: `Đơn hàng cho người chưa chết`.
+3. Aftermath — Ch.17–19: family memory, Thủy/Nhân seed, departure.
+4. Hanoi reset — Ch.20–21: real work/life before anomaly.
+5. Case 02 — Ch.22–33: `Tài khoản của người chết`.
+6. Short Haunting — Ch.34–40: working shell `Người về ăn giỗ`, **not** a third investigation.
+7. Closing — Ch.41–46: culture/oral mutation, grandfather refusal-note pattern, Khanh begins uncertainty notes.
 
-Embedded ghost stories continue across both home and work ecosystems so the Volume retains horror/spiritual texture even between main cases.
+The Volume contains **two full mysteries plus one non-investigative spiritual haunting**. The third arc exists to prove that horror/spiritual experience remains meaningful even when no culprit or mechanism needs to be solved.
 
-Near the end of Volume 1, Khanh begins his own simple record of strange matters — name, date, source, what seems certain, what remains uncertain — unintentionally echoing grandfather's notebook without becoming a chosen heir.
+`Người về ăn giỗ` currently locks only its function and shell: an ordinary death-anniversary context, one strongly uncanny near-full apparition, an unfinished everyday promise/duty, and Khanh helping because the act is worthwhile whether or not the apparition can be proven supernatural. Exact mechanics remain for Discovery 15.
+
+## Volume 1 ending
+
+Grandfather's notebooks contain repeated terse refusals across years (`Không nhận`, `Không xem`, `Không can thiệp`, `Thôi`, etc.) covering apparently unrelated matters. Case Zero may be among them; Case 02 must not be.
+
+The ending reveals a **pattern of refusal, not its cause**. No hidden letter, prophecy, common demon or conspiracy is revealed.
+
+Near the end Khanh starts a private digital record of strange matters: name, date, source, what seems certain, what remains uncertain. This echoes grandfather's notebooks without chosen-heir framing or a paranormal-career decision.
 
 ## Next step
 
-**Discovery 14 — Volume 1 Architecture & Case Map.**
+**Discovery 15 — Short Haunting 03 + Volume 1 Ending Truth Matrix.**
 
-Resolve the macro shape of Volume 1: approximate total length; Case Zero placement; three-part interlude; Case 02 length; whether a third case or short haunting is required; cultural/embedded-story placement; seasonal progression; and the exact level of grandfather-pattern revelation at the Volume ending.
+Design `Người về ăn giỗ` at truth-matrix level: objective human history, family structure, witnesses, apparition evidence, natural/supernatural models, unfinished promise/duty, cultural research needs, grandfather-overlap ambiguity, and exactly what Khanh/reader know by the Volume ending.
 
 Do not draft chapter prose yet.
