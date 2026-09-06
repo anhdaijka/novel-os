@@ -19,6 +19,7 @@ The branch deliberately separates project discovery from the reusable Novel OS f
 - Discovery 09 — Supernatural Epistemology & Horror Rules: accepted.
 - Discovery 10 — Narrative Voice, Prose & Horror Language: accepted.
 - Discovery 10 amendment — cultural celebration + embedded oral-horror / folklore storytelling layer: accepted.
+- Discovery 11 — Folklore Atlas & Embedded Ghost Story Engine: accepted.
 - Series-language amendment — horror / spiritual experience must remain primary over procedural mystery: accepted.
 
 ## Documents
@@ -30,6 +31,7 @@ The branch deliberately separates project discovery from the reusable Novel OS f
 - `discovery-08-setting.md` — hometown geography, market and votive-paper economy, seasonal/sensory bible, living-tradition boundaries and cultural research protocol.
 - `discovery-09-supernatural-epistemology.md` — detailed handling of the dead, dreams, apparitions, possession-like phenomena, objects/places, curses, rituals, corpse-reanimation folklore, possible non-human presences and author-side evidence/continuity rules.
 - `discovery-10-voice-and-embedded-folklore.md` — accepted main prose contract plus the oral-horror/cultural storytelling layer, reliability rules for stories told by others and the role of Vietnamese folklore/religious culture in the novel.
+- `discovery-11-folklore-atlas.md` — Folklore Atlas schema, source discipline, embedded-story engine, initial Northern folklore clusters and Volume 1 mini-story candidate bank.
 
 ## Canon boundary
 
@@ -88,12 +90,20 @@ Not every embedded tale becomes a case or requires payoff. Some simply scare, en
 
 Named folklore categories of ghosts, spirits, demons or corpse phenomena are story material and cultural beliefs first, not automatic author-canon species.
 
+## Current Folklore Atlas direction
+
+The Atlas is **not a bestiary**. Each term tracks region/community, source quality, religious/folk/oral/media layer, variants, cultural context, confusion risk, fictional-use boundary and author-universe status.
+
+Initial research/story clusters include `hồn/vong`, `oan hồn`, `cô hồn`, Buddhist-linked `ngạ quỷ`, dreams of the dead, `ma trơi`, `bóng đè`, possession-like terminology, `trùng tang`, research-required `Thần Trùng`, rare major-horror `quỷ nhập tràng`, Northern oral-story candidate `chó đội nón mê`, and high-research umbrella terms such as `tinh/yêu/quỷ`.
+
+Region-sensitive terms such as `ma da`, `ma xó` and `ma giữ của` must not be imported into Northern-core folklore without source work.
+
+Volume 1 has an accepted **candidate bank** of embedded tales, not plot canon: night vegetable-truck story, dead person's phone call, overlapping dreams, cemetery lights/`ma trơi`, fear of `trùng`, a thanh đồng who is mostly wrong but knows one impossible detail, and a local retelling of grandfather refusing a household.
+
 ## Next step
 
-Discovery 11 — Folklore Atlas & Embedded Ghost Story Engine.
+Discovery 12 — Cast Naming & Character Identity Pass.
 
-Focus next on a researched map of Northern Vietnamese ghost/spirit/demon concepts, terminology, regional variation, oral-story forms and a bank of embedded ghost-story seeds. Every entry should label source quality and separate research fact / folk belief / character belief / fictional variation / possible author-canon candidate.
+Focus next on names, ages, appearance, habits, ordinary wants, contradictions, relationship-specific voice and belief/telling style for recurring family, hometown, ritual and workplace characters.
 
-Cast Naming & Character Identity Pass follows after this folklore layer is stable.
-
-Do not outline chapters beyond the accepted Case Zero beat architecture until the folklore/oral-story engine has been stress-tested enough to support Volume 1 texture.
+Do not initialize full Story Skills canon yet; first make the recurring cast concrete enough to support scene-level drafting without placeholder identities.
