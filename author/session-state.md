@@ -7,7 +7,7 @@
 - Current focus: long-form discovery before Story Skills story initialization.
 - Project: `Horrible` — Northern Vietnam horror / spiritual / mystery series.
 - Branch: `story/horrible-development`.
-- Why now: establish series engine, characters, horror language, case architecture, macro direction, cultural setting and supernatural epistemology before committing manuscript canon.
+- Why now: establish series engine, characters, horror language, case architecture, macro direction, cultural setting, supernatural epistemology and prose/cultural storytelling rules before committing manuscript canon.
 
 ## Accepted discovery checkpoint
 
@@ -20,6 +20,8 @@
 - Discovery 07: long-series architecture / macro mystery — accepted.
 - Discovery 08: Northern Vietnam setting / research bible — accepted.
 - Discovery 09: supernatural epistemology / horror rules — accepted.
+- Discovery 10: narrative voice / prose / horror language — accepted.
+- Discovery 10 amendment: cultural celebration + embedded oral-horror / folklore storytelling layer — accepted.
 - Horror-first language amendment — accepted as project-level principle.
 
 ## Current core facts
@@ -67,6 +69,39 @@
 - **Absence of established ability is not permission to invent ability.** Power/capability escalation requires explicit evidence and author-level approval.
 
 Detailed operational rules: `development/horrible/discovery-09-supernatural-epistemology.md`.
+
+## Accepted narrative voice
+
+- Close third-person limited around Khanh; one consciousness per scene.
+- Contemporary Vietnamese, neutral-to-Northern register; natural present-tense-like flow rather than excessive `đã`.
+- Medium prose density; lyrical prose is selective and earned.
+- `Describe the wrongness before naming the horror.`
+- `Concrete first, interpretation second.`
+- `Fear lives in interruption of normal patterns.`
+- `The dead should feel like former people before supernatural objects.`
+- Body response carries fear before abstract labels.
+- Apparitions may look ordinary; horror does not require grotesque design or jumpscare grammar.
+- Technical prose is accurate but light; Khanh remains an engineer rather than a Sherlock narrator.
+- Humor is relational and moderate; Khanh is not a quip machine.
+- Dialogue is natural to family/work/social relationships rather than lore delivery.
+- Avoid generic AI abstraction, mechanical aphorisms/triads, over-explanation, imported gothic language and repetitive cliffhanger phrasing.
+- Numbered chapters with short optional image/object titles are preferred.
+
+Detailed style rules: `author/style-bible.md` and `development/horrible/discovery-10-voice-and-embedded-folklore.md`.
+
+## Accepted cultural / embedded-story layer
+
+- The novel should actively help readers encounter the beauty, complexity, contradictions and darker human edges of Vietnamese Buddhism, Đạo Mẫu / Thờ Mẫu, ancestor practice, folk belief, ritual culture, votive-paper life, funeral/memorial practice and Northern Vietnamese oral supernatural lore.
+- Darker material may include exploitation, commercialization, fraud, fear, social pressure, stigma and sincere but mistaken belief; it must be attached to specific people/situations rather than presented as proof that a living tradition is inherently sinister.
+- Stories told by people other than Khanh are a major independent horror channel.
+- Customers, relatives, market contacts, ritual practitioners, colleagues and others may tell complete or partial ghost stories.
+- Oral stories may be exaggerated, mistaken, contradictory, hearsay-driven or genuinely supernatural.
+- A told story is testimony, not objective author canon.
+- Not every oral story becomes a case, clue or macro connection. Some simply scare, entertain, preserve oral storytelling, show culture or widen the spiritual world.
+- Oral tales may use folklore terminology and apparent rules more freely because they inherit the teller's belief system.
+- If an oral-story claim later crosses into the main plot, it must be re-evaluated through the normal evidence / author-status framework.
+- Northern Vietnamese concepts of ghosts, spirits, demons, corpse phenomena and possible non-human beings are valuable story material, but named folklore categories are not automatically fixed species canon.
+- This layer is important for preventing `Horrible` from becoming too purely procedural-investigative.
 
 ## Accepted case development
 
@@ -121,6 +156,7 @@ Khanh remains a software engineer; investigation may affect career and life but 
 - Not every case must be supernatural.
 - Not every ghost is malicious, truthful or useful.
 - Not every uncanny event is a clue.
+- Not every ghost story told in the novel needs verification or payoff.
 - Supporting characters live outside cases.
 - Authority increases confidence, never converts interpretation into objective truth.
 - Nhân quả is not a visible supernatural scoreboard.
@@ -129,17 +165,17 @@ Khanh remains a software engineer; investigation may affect career and life but 
 ## Blockers / unresolved discovery questions
 
 - Exact hometown name.
-- Final prose tense.
-- Narrative voice and distance.
-- How conversational / regionally Northern dialogue should sound without becoming caricature.
-- Technical prose density for work scenes.
-- Exact horror-scene prose discipline: sensory detail, direct apparition, withholding and reveal.
-- Gore / body-horror ceiling.
-- Humor cadence and family/work dialogue texture.
+- Names and full identities of recurring supporting cast.
+- Detailed researched atlas of Northern Vietnamese ghost/spirit/demon concepts and regional variations.
+- Which folklore terms are safe/accurate to use as cultural explanation versus character belief.
+- A reusable engine for embedded oral ghost stories and how frequently they appear without bloating pacing.
+- Which cultural topics should receive dedicated scenes/mini-stories across Volume 1.
 - Exact final causal models for intentionally ambiguous cases should remain locked once evidence is authored.
 
 ## Suggested next discovery
 
-Discovery 10 — Narrative Voice, Prose & Horror Language.
+Discovery 11 — Folklore Atlas & Embedded Ghost Story Engine.
 
-Focus: POV/tense, narrative distance, prose density, Northern Vietnamese conversational register, family/work dialogue, technical prose, humor, sensory horror, apparition scenes, gore boundaries and techniques that prevent the novel from reading like generic AI horror prose.
+Focus: build a researched map of Northern Vietnamese ghost/spirit/demon concepts, oral ghost-story formats, living-practice context, source quality and a bank of embedded-story seeds. Keep every entry labeled as research fact / folk belief / character belief / fictional variation / possible author-canon candidate.
+
+Cast Naming & Character Identity Pass follows after this folklore layer is stable.
