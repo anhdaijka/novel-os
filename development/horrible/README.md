@@ -16,6 +16,7 @@ The branch deliberately separates project discovery from the reusable Novel OS f
 - Discovery 06 — Hanoi work-life engine and Case 02: accepted.
 - Discovery 07 — Long-Series Architecture & Macro Mystery: accepted.
 - Discovery 08 — Northern Vietnam Setting & Research Bible: accepted.
+- Discovery 09 — Supernatural Epistemology & Horror Rules: accepted.
 - Series-language amendment — horror / spiritual experience must remain primary over procedural mystery: accepted.
 
 ## Documents
@@ -25,6 +26,7 @@ The branch deliberately separates project discovery from the reusable Novel OS f
 - `case-02-dead-account.md` — accepted second-case candidate and workplace engine.
 - `discovery-07-long-series.md` — Volume structure, depth escalation, macro-mystery direction, grandfather's refusals, Japan return, reputation and Khanh's long arcs.
 - `discovery-08-setting.md` — hometown geography, market and votive-paper economy, seasonal/sensory bible, living-tradition boundaries and cultural research protocol.
+- `discovery-09-supernatural-epistemology.md` — detailed handling of the dead, dreams, apparitions, possession-like phenomena, objects/places, curses, rituals, corpse-reanimation folklore, possible non-human presences and author-side evidence/continuity rules.
 
 ## Canon boundary
 
@@ -50,10 +52,18 @@ Khanh's hometown is a fictional semi-urbanizing locality on the former Bắc Gia
 
 Core research rule: **culture is not supernatural evidence**. Real beliefs and living traditions must be separated from character belief, observed phenomena and fictional author-canon rules.
 
+## Current supernatural direction
+
+The world is compatible with genuine supernatural reality but does not publish a clean cosmology or bestiary. The dead are not automatically truthful, omniscient, benevolent or evil. Dreams, apparitions, possession-like events, object/place phenomena, ritual effects and possible non-human presences are evaluated through evidence and competing models rather than universal trope rules.
+
+Core continuity rule: **absence of established ability is not permission to invent ability**.
+
+Every important phenomenon should separate observation, witnesses, physical evidence, natural models, folk interpretations, supernatural models and private author status.
+
 ## Next step
 
-Discovery 09 — Supernatural Epistemology & Horror Rules.
+Discovery 10 — Narrative Voice, Prose & Horror Language.
 
-Focus next on how the novel handles hồn/vong, dreams, sleep paralysis, apparitions, possession-like events, object/place hauntings, curses, corpse-reanimation folklore, possible non-human presences, agency of the dead, and the strict separation between folk belief / character belief / observed fact / actual author rule.
+Focus next on POV/tense, narrative distance, prose density, Northern Vietnamese conversational register, family/work dialogue, technical prose, humor, sensory horror, apparition scenes, gore boundaries and techniques that prevent the novel from reading like generic AI horror prose.
 
-Do not outline chapters beyond the accepted Case Zero beat architecture until the supernatural epistemology has been stress-tested.
+Do not outline chapters beyond the accepted Case Zero beat architecture until narrative voice has been stress-tested.
