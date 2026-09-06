@@ -20,6 +20,7 @@ The branch deliberately separates project discovery from the reusable Novel OS f
 - Discovery 10 — Narrative Voice, Prose & Horror Language: accepted.
 - Discovery 10 amendment — cultural celebration + embedded oral-horror / folklore storytelling layer: accepted.
 - Discovery 11 — Folklore Atlas & Embedded Ghost Story Engine: accepted.
+- Discovery 12 — Cast Naming & Character Identity Pass: accepted.
 - Series-language amendment — horror / spiritual experience must remain primary over procedural mystery: accepted.
 
 ## Documents
@@ -32,6 +33,7 @@ The branch deliberately separates project discovery from the reusable Novel OS f
 - `discovery-09-supernatural-epistemology.md` — detailed handling of the dead, dreams, apparitions, possession-like phenomena, objects/places, curses, rituals, corpse-reanimation folklore, possible non-human presences and author-side evidence/continuity rules.
 - `discovery-10-voice-and-embedded-folklore.md` — accepted main prose contract plus the oral-horror/cultural storytelling layer, reliability rules for stories told by others and the role of Vietnamese folklore/religious culture in the novel.
 - `discovery-11-folklore-atlas.md` — Folklore Atlas schema, source discipline, embedded-story engine, initial Northern folklore clusters and Volume 1 mini-story candidate bank.
+- `discovery-12-cast-identity.md` — accepted recurring names, ages, jobs, contradictions, epistemic styles, spiritual postures and storytelling ecosystems.
 
 ## Canon boundary
 
@@ -100,10 +102,32 @@ Region-sensitive terms such as `ma da`, `ma xó` and `ma giữ của` must not b
 
 Volume 1 has an accepted **candidate bank** of embedded tales, not plot canon: night vegetable-truck story, dead person's phone call, overlapping dreams, cemetery lights/`ma trơi`, fear of `trùng`, a thanh đồng who is mostly wrong but knows one impossible detail, and a local retelling of grandfather refusing a household.
 
+## Current recurring cast
+
+Accepted development identities:
+
+- Nguyễn Minh Khanh — 27, software engineer, causal/root-cause thinker.
+- Nguyễn Văn Hùng — father, about 57, practical construction/technical background.
+- Trần Thị Lan — mother, about 55, runs the votive-paper shop and is a major oral-story source.
+- Nguyễn Minh Hạnh — sister, about 35, primary-school teacher.
+- Lê Đức Tuấn — brother-in-law, about 37, technical/operations work.
+- Hoàng Ngọc Mai — 27, hometown logistics/food-wholesale operations friend; no default romance.
+- Nguyễn Văn Nhân — grandfather's younger paternal half-brother, mid-70s, experienced but cautious spiritual/ritual practitioner.
+- Bùi Thị Thủy — about 49, practitioner associated with Thờ Mẫu plus ordinary shopkeeper; exact formal title requires research.
+- Phạm Quốc Duy — early 30s, ER doctor and evidence-threshold skeptic.
+- Đỗ Minh Quân — about 24, genuine-believer paranormal content creator whose media incentives make him overstate certainty.
+- Trần Hoàng Nam — 35, Engineering Team Lead.
+- Vũ Đức Anh — 24, fast/online junior engineer and digital-folklore source.
+- Lê Thu Hà — 28, BA/BrSE and strong source-qualification thinker.
+- Sato Keisuke (佐藤圭介) — early 30s, trusted Japan-side engineer/PM counterpart.
+- Đặng Việt Long — mid-30s recurring police contact; respects observation more than interpretation.
+
+Core cast rule: conflict should arise from **different standards of knowing**, not repetitive believer-versus-skeptic debates. No character is a universal folklore or supernatural answer database.
+
 ## Next step
 
-Discovery 12 — Cast Naming & Character Identity Pass.
+Discovery 13 — Volume 1 Cast Deployment & Relationship Arcs.
 
-Focus next on names, ages, appearance, habits, ordinary wants, contradictions, relationship-specific voice and belief/telling style for recurring family, hometown, ritual and workplace characters.
+Focus next on who appears during homecoming and Case Zero, who should be delayed, which embedded stories each character can carry, how relationships change through Case Zero → normal-life interlude → Hanoi work → Case 02, and how to prevent the ensemble from becoming a fixed ghost-hunting team.
 
-Do not initialize full Story Skills canon yet; first make the recurring cast concrete enough to support scene-level drafting without placeholder identities.
+Do not initialize full Story Skills canon yet; first stress-test Volume 1 cast deployment and remaining pre-draft architecture.
