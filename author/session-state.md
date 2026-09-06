@@ -7,7 +7,7 @@
 - Current focus: long-form discovery before Story Skills story initialization.
 - Project: `Horrible` — Northern Vietnam horror / spiritual / mystery series.
 - Branch: `story/horrible-development`.
-- Why now: establish series engine, characters, horror language, case architecture and macro direction before committing manuscript canon.
+- Why now: establish series engine, characters, horror language, case architecture, macro direction and cultural setting before committing manuscript canon.
 
 ## Accepted discovery checkpoint
 
@@ -17,6 +17,7 @@
 - Discovery 04: supporting cast / relationship network — accepted with amendments.
 - Discovery 05: Case Zero beat architecture — accepted with “Việt kiều Nhật” wording amendment.
 - Discovery 06: Hanoi work-life engine / Case 02 candidate — accepted.
+- Discovery 07: long-series architecture / macro mystery — accepted.
 - Horror-first language amendment — accepted as project-level principle.
 
 ## Current core facts
@@ -43,6 +44,36 @@ Human death mechanism is plausibly accidental. A buried family history from roug
 
 “Tài khoản của người chết.” A dead engineer's credentials appear in a modern workplace system. Human account misuse explains most of the incident; a final technical residue remains unverified and uncanny.
 
+## Accepted long-series direction
+
+- Organize the series into Volumes, roughly 35–55 chapters as a working scale rather than a quota.
+- Cases vary in length and are separated by ordinary life, aftermath, family, work and travel.
+- Macro mystery is a pattern question, not a final-boss question.
+- Preferred macro direction: unfinished truths + matters grandfather once refused to handle.
+- Only a minority of cases need genuine macro connection; false connections and Khanh overfitting patterns are allowed.
+- Grandfather knew more than Khanh but did not know everything and left no prophetic message specifically for Khanh.
+- Escalation is by depth: anomaly → pattern → conflicting testimony → historical repetition → identity uncertainty → uncertainty about who or what is communicating.
+- No default entity hierarchy, demon king, bloodline power or supernatural combat progression.
+- Japan may return in Volume 3 or later through ordinary work reasons; it need not share one entity/conspiracy with Vietnam cases.
+- Do not confirm that strange events objectively cluster around Khanh. Selection bias, network effects and his willingness to follow questions remain viable explanations.
+- Khanh does not become a paid paranormal investigator or publicly famous ghost hunter.
+- No required single human or supernatural final antagonist.
+
+### Provisional thematic trajectory
+
+- Volume 1: `Những chuyện tưởng đã kết thúc` — traces, records, grief, what the dead leave behind.
+- Volume 2: `Người kể không phải lúc nào cũng đáng tin` — testimony, dreams, fraud, possession-like ambiguity; Khanh eventually trusts a wrong message/interpretation and causes a meaningful consequence.
+- Volume 3: `Ai đang nói?` — identity horror, mimicry hypotheses, mismatched memories, stronger uncanny experience and possible work-driven return to Japan.
+- Later Volumes remain intentionally unlocked.
+
+## Khanh's long arcs
+
+1. From wanting answers to understanding the responsibility created by knowledge.
+2. From dismissing other people's burdens as unnecessary trouble to helping when he genuinely can without expecting reward.
+3. From demanding closure to living with uncertainty without lying to himself.
+
+Khanh remains a software engineer; investigation may affect career and life but does not automatically replace his profession.
+
 ## Current narrative rules
 
 - Horror first, mystery second.
@@ -50,23 +81,28 @@ Human death mechanism is plausibly accidental. A buried family history from roug
 - Solving the mechanism does not necessarily solve the haunting.
 - Life supplies the analogy; evidence supplies the answer.
 - Not every case must resolve.
+- Not every case must contain a crime.
+- Not every case must be supernatural.
 - Not every ghost is malicious, truthful or useful.
 - Not every uncanny event is a clue.
 - Supporting characters live outside cases.
+- Authority increases confidence, never converts interpretation into objective truth.
+- Nhân quả is not a visible supernatural scoreboard.
 - No default chosen-one / supernatural-combat escalation.
 
 ## Blockers / unresolved discovery questions
 
 - Exact hometown name / administrative placement.
 - Final prose tense.
-- Full macro-mystery architecture.
-- Whether strange events are objectively clustering around Khanh or whether selection / attention explains the pattern.
-- Long-series structure and volume / arc organization.
-- How and when Japan backstory returns.
+- Northern Vietnam geographic and cultural research bible.
+- Exact fictional/real boundary for local places.
+- Votive-paper commerce and ritual-calendar texture.
+- Funeral, ancestor, temple/pagoda/shrine and practitioner research boundaries.
+- How much regional dialect/register to use without caricature.
 - Exact final causal models for intentionally ambiguous cases should remain locked once evidence is authored.
 
 ## Suggested next discovery
 
-Discovery 07 — Long-Series Architecture & Macro Mystery.
+Discovery 08 — Northern Vietnam Setting & Research Bible.
 
-Focus: horror-first escalation without turning into power fantasy or one-conspiracy case-of-the-week fiction.
+Focus: hometown geography; Kinh Bắc / former Bắc Ninh–Bắc Giang texture; market and votive-paper economy; seasons and sensory language; temples, pagodas, shrines, funerals and ancestor practice; regional travel; and rules separating respectful research of living traditions from fictional occult lore.
