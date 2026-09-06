@@ -16,6 +16,8 @@ Khanh is not a ghost hunter, medium or chosen one. Strange cases reach him throu
 - Fair clues and causal discipline when investigation matters.
 - Re-reading should reveal foreshadowing and earlier details acquiring new meaning.
 - Some cases resolve, some only partially resolve, some remain deliberately ambiguous, and some may later prove to have been closed wrongly.
+- Readers should also encounter complete or partial ghost stories told by other people — customers, relatives, practitioners, colleagues, market contacts and strangers — so the novel preserves an oral-horror life beyond Khanh's formal investigations.
+- The series should give readers meaningful contact with the beauty, complexity, contradictions and darker human edges of Vietnamese Buddhist life, Đạo Mẫu / Thờ Mẫu, ancestor practice, folk belief, ritual culture, funeral/memorial life and Northern Vietnamese ghost lore without reducing living traditions to horror props.
 
 ## Genre / subgenre contract
 
@@ -24,6 +26,8 @@ Primary: horror, supernatural / spiritual horror, folk-adjacent horror.
 Strong secondary: mystery / investigation, crime, psychological horror, family and social drama.
 
 Setting language: contemporary Northern Vietnam, with a strong Kinh Bắc / former Bắc Ninh–Bắc Giang cultural and commercial texture; exact hometown may remain fictionalized while real higher-level places can be used.
+
+The novel is **not** detective fiction plus supernatural garnish. Investigation is only one engine among oral ghost stories, direct uncanny experience, cultural/religious life, grief, family memory, legends and unresolved encounters.
 
 ## Thematic north star
 
@@ -39,6 +43,41 @@ A long-range macro thesis is:
 
 Fear should coexist with tenderness, grief, nostalgia and ordinary affection. A dead person was once somebody who ate, argued, loved, failed, gave a child a snack, waited for someone to come home, or left something unsaid.
 
+## Cultural / folkloric purpose
+
+`Horrible` should function partly as a portal into Vietnamese spiritual and folk-cultural worlds.
+
+It may celebrate:
+
+- devotion, ritual beauty, music, color, memory, community and care;
+- everyday Buddhist and folk-religious life;
+- Đạo Mẫu / Thờ Mẫu as a living practice rather than a fantasy system;
+- ancestor relations, memorial customs, votive-paper culture and local oral history;
+- folklore concepts of ghosts, spirits, resentful dead, wandering presences and other supernatural categories.
+
+It may also explore darker edges:
+
+- exploitation and commercial incentive;
+- social pressure and fear;
+- fraud or performance;
+- superstition used as control;
+- sincere but mistaken belief causing harm;
+- stigma, family secrecy and people hiding behind spiritual authority.
+
+Those darker elements belong to specific people and situations, not to a blanket claim that Buddhism, Đạo Mẫu or Vietnamese folk belief is inherently sinister.
+
+## Oral-storytelling layer
+
+Stories told by characters other than Khanh are a legitimate independent horror layer.
+
+A told ghost story is **testimony**, not objective canon. The teller may exaggerate, misremember, combine stories, repeat hearsay, hide details, believe something false or report something genuinely supernatural.
+
+Because of that, embedded stories may contain folklore rules, dramatic claims or frightening entities that do not automatically become rules of the main universe.
+
+Not every embedded story needs to become a case or receive a payoff. Some exist to scare, entertain, preserve cultural texture, reveal worldview or widen the supernatural horizon.
+
+If a story later crosses into the main plot, its claims must be re-evaluated through the normal evidence/author-status framework before becoming canon.
+
 ## Narrative philosophy
 
 - Horror first, mystery second.
@@ -52,6 +91,7 @@ Fear should coexist with tenderness, grief, nostalgia and ordinary affection. A 
 - Supernatural experiences may sometimes feel real to Khanh without the narrative publishing a clean fantasy taxonomy.
 - Not every supernatural event is a clue. Some exist for grief, dread, atmosphere, character or unresolved mystery.
 - Not every case must be solvable. Unresolved for characters must not mean underdesigned by the author.
+- Oral ghost stories are allowed to be looser, more exaggerated and more openly folkloric than the main close-third narration because they belong to the teller's epistemic frame.
 
 ## Long-series direction
 
@@ -70,6 +110,8 @@ Fear should coexist with tenderness, grief, nostalgia and ordinary affection. A 
 The project is compatible with a genuinely supernatural world, but avoids over-defining cosmology. Multiple explanatory models may remain simultaneously viable.
 
 Phenomena such as possession, corpse reanimation folklore, apparitions, dreams, omens and non-human entities may be explored, but ambiguity is preferred over a confirmed bestiary or power system.
+
+Named folklore categories normally begin as cultural/character interpretations rather than author-certified species.
 
 ## Moral direction
 
@@ -94,6 +136,9 @@ His three long arcs are:
 - Do not make skepticism stupid or spirituality automatically correct.
 - Do not make grandfather the hidden answer to the entire universe.
 - Keep family, work, humor, mundane obligations and social drama alive between cases.
+- Keep substantial horror/spiritual content outside formal investigation arcs.
+- Treat living Vietnamese religious/spiritual traditions with research, specificity and respect.
+- Do not automatically convert folklore categories into fixed author-canon monster species.
 
 ## Deliberate departures from convention
 
@@ -101,3 +146,4 @@ His three long arcs are:
 - No required team of ghost hunters.
 - No automatic escalation toward demon kings, bloodline powers or magical combat.
 - No requirement that a case conclude with a culprit arrest or metaphysical explanation.
+- No requirement that every scary story told inside the novel be verified, solved or connected to the macro plot.
