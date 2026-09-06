@@ -276,3 +276,35 @@ Decisions below were explicitly accepted during discovery. Future agents must no
 - **Decision:** The series may expand into nearby northern midland/mountain provinces and later farther across northern Vietnam, but ethnic-minority settings are high-research zones.
 - **Implications:** Never write generic `người dân tộc` culture or turn real Tày/Nùng/Dao/etc. traditions into a monster catalogue. Identify community, geography and source basis before use.
 - **Supersedes:** none
+
+### D-035 — Narrative voice and prose contract
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** Main narration uses close third-person limited around Khanh, one consciousness per scene, contemporary neutral-to-Northern Vietnamese, medium prose density and a natural present-tense-like flow. Horror should describe concrete wrongness before naming interpretation.
+- **Implications:** Body response precedes abstract fear labels; normality precedes intrusion; apparitions may look ordinary; technical prose stays accurate but light; humor remains relational; chapter endings and horror beats should avoid repetitive AI/procedural patterns.
+- **Supersedes:** none
+
+### D-036 — Embedded oral-horror layer
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** Stories told by people other than Khanh are a major independent horror channel. Customers, relatives, market contacts, ritual practitioners, colleagues and others may tell complete or partial ghost stories that can be exaggerated, mistaken, contradictory, folkloric or genuinely supernatural.
+- **Implications:** A told story is testimony, not objective canon. It may exist solely to scare, entertain, preserve oral storytelling, reveal worldview or widen the spiritual world. Not every story requires investigation, verification or payoff. If it later crosses into the main plot, its claims must be re-evaluated through the evidence/author-status framework.
+- **Supersedes:** none
+
+### D-037 — Cultural celebration and critical complexity
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** The novel should use its length and setting to help readers encounter the beauty, complexity, living practice and darker human edges of Vietnamese Buddhism, Đạo Mẫu / Thờ Mẫu, ancestor practice, folk belief, ritual culture, votive-paper life, funeral/memorial practice and oral supernatural lore.
+- **Implications:** Beauty may include devotion, music, color, care, memory and community. Darkness may include exploitation, fear, fraud, commercialization, social pressure or sincere mistaken belief. Negative acts belong to specific people/incentives/situations and must not imply that a whole living tradition is inherently sinister.
+- **Supersedes:** none
+
+### D-038 — Folklore categories are story material, not automatic species canon
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** Northern Vietnamese concepts of ghosts, spirits, demons, corpse phenomena and possibly non-human presences may be researched and used heavily for atmosphere, oral tales, hypotheses and case material.
+- **Implications:** Named folklore categories remain folk/character belief unless separately established at author level. Different communities or tellers may disagree. Do not build a fixed monster bestiary or power/weakness chart from folklore terminology.
+- **Supersedes:** none
