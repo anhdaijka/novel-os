@@ -15,6 +15,7 @@ The branch deliberately separates project discovery from the reusable Novel OS f
 - Discovery 05 — Case Zero beat architecture: accepted with wording amendment `Việt kiều Nhật`.
 - Discovery 06 — Hanoi work-life engine and Case 02: accepted.
 - Discovery 07 — Long-Series Architecture & Macro Mystery: accepted.
+- Discovery 08 — Northern Vietnam Setting & Research Bible: accepted.
 - Series-language amendment — horror / spiritual experience must remain primary over procedural mystery: accepted.
 
 ## Documents
@@ -23,6 +24,7 @@ The branch deliberately separates project discovery from the reusable Novel OS f
 - `case-zero-truth-matrix.md` — what objectively happened, what different people know, and which supernatural models remain viable.
 - `case-02-dead-account.md` — accepted second-case candidate and workplace engine.
 - `discovery-07-long-series.md` — Volume structure, depth escalation, macro-mystery direction, grandfather's refusals, Japan return, reputation and Khanh's long arcs.
+- `discovery-08-setting.md` — hometown geography, market and votive-paper economy, seasonal/sensory bible, living-tradition boundaries and cultural research protocol.
 
 ## Canon boundary
 
@@ -42,10 +44,16 @@ The preferred long-series pattern is **unfinished truths + the matters grandfath
 
 Escalation is through depth and uncertainty rather than supernatural power levels.
 
+## Current setting direction
+
+Khanh's hometown is a fictional semi-urbanizing locality on the former Bắc Giang side of the contemporary Bắc Ninh region, roughly 1–2 hours from Hanoi. The family house/votive-paper shop sits at a busy market crossroads. The setting should hold Kinh Bắc cultural memory, wholesale/retail commerce, logistics, remaining fields, low hills, roads, cemeteries, industrial development and ordinary modern life at the same time.
+
+Core research rule: **culture is not supernatural evidence**. Real beliefs and living traditions must be separated from character belief, observed phenomena and fictional author-canon rules.
+
 ## Next step
 
-Discovery 08 — Northern Vietnam Setting & Research Bible.
+Discovery 09 — Supernatural Epistemology & Horror Rules.
 
-Focus next on hometown geography, Kinh Bắc / former Bắc Ninh–Bắc Giang texture, market and votive-paper economy, seasons, rituals, funeral practices, temples/pagodas/shrines, regional travel and the boundary between researched living traditions and fictional occult lore.
+Focus next on how the novel handles hồn/vong, dreams, sleep paralysis, apparitions, possession-like events, object/place hauntings, curses, corpse-reanimation folklore, possible non-human presences, agency of the dead, and the strict separation between folk belief / character belief / observed fact / actual author rule.
 
-Do not outline chapters beyond the accepted Case Zero beat architecture until the broader setting and research rules have been stress-tested.
+Do not outline chapters beyond the accepted Case Zero beat architecture until the supernatural epistemology has been stress-tested.
