@@ -17,6 +17,8 @@ The branch deliberately separates project discovery from the reusable Novel OS f
 - Discovery 07 — Long-Series Architecture & Macro Mystery: accepted.
 - Discovery 08 — Northern Vietnam Setting & Research Bible: accepted.
 - Discovery 09 — Supernatural Epistemology & Horror Rules: accepted.
+- Discovery 10 — Narrative Voice, Prose & Horror Language: accepted.
+- Discovery 10 amendment — cultural celebration + embedded oral-horror / folklore storytelling layer: accepted.
 - Series-language amendment — horror / spiritual experience must remain primary over procedural mystery: accepted.
 
 ## Documents
@@ -27,6 +29,7 @@ The branch deliberately separates project discovery from the reusable Novel OS f
 - `discovery-07-long-series.md` — Volume structure, depth escalation, macro-mystery direction, grandfather's refusals, Japan return, reputation and Khanh's long arcs.
 - `discovery-08-setting.md` — hometown geography, market and votive-paper economy, seasonal/sensory bible, living-tradition boundaries and cultural research protocol.
 - `discovery-09-supernatural-epistemology.md` — detailed handling of the dead, dreams, apparitions, possession-like phenomena, objects/places, curses, rituals, corpse-reanimation folklore, possible non-human presences and author-side evidence/continuity rules.
+- `discovery-10-voice-and-embedded-folklore.md` — accepted main prose contract plus the oral-horror/cultural storytelling layer, reliability rules for stories told by others and the role of Vietnamese folklore/religious culture in the novel.
 
 ## Canon boundary
 
@@ -60,10 +63,37 @@ Core continuity rule: **absence of established ability is not permission to inve
 
 Every important phenomenon should separate observation, witnesses, physical evidence, natural models, folk interpretations, supernatural models and private author status.
 
+## Current prose direction
+
+Main prose is close third-person limited around Khanh, contemporary neutral-to-Northern Vietnamese, medium density, concrete-first and horror-first.
+
+Core prose rules:
+
+- **Describe the wrongness before naming the horror.**
+- **Concrete first, interpretation second.**
+- **Fear lives in interruption of normal patterns.**
+- **The dead should feel like former people before supernatural objects.**
+
+Avoid generic AI abstraction, over-explanation, repetitive aphoristic endings, automatic gothic imagery and procedural clue/interview rhythm.
+
+## Embedded folklore / oral-horror direction
+
+Stories told by people other than Khanh are a major independent horror channel.
+
+They may be exaggerated, mistaken, contradictory, hearsay-driven or genuinely supernatural. A told story is testimony rather than objective canon, so its folklore rules do not automatically bind the main universe.
+
+The novel should actively create room for readers to encounter Vietnamese Buddhist life, Đạo Mẫu / Thờ Mẫu, ancestor practices, ritual culture, votive-paper life, funeral/memorial practice and Northern Vietnamese supernatural folklore — including both beauty/community meaning and darker human uses of belief.
+
+Not every embedded tale becomes a case or requires payoff. Some simply scare, entertain, preserve oral storytelling or widen the spiritual world. If a claim later crosses into the main plot, re-evaluate it through the normal evidence/author-status framework.
+
+Named folklore categories of ghosts, spirits, demons or corpse phenomena are story material and cultural beliefs first, not automatic author-canon species.
+
 ## Next step
 
-Discovery 10 — Narrative Voice, Prose & Horror Language.
+Discovery 11 — Folklore Atlas & Embedded Ghost Story Engine.
 
-Focus next on POV/tense, narrative distance, prose density, Northern Vietnamese conversational register, family/work dialogue, technical prose, humor, sensory horror, apparition scenes, gore boundaries and techniques that prevent the novel from reading like generic AI horror prose.
+Focus next on a researched map of Northern Vietnamese ghost/spirit/demon concepts, terminology, regional variation, oral-story forms and a bank of embedded ghost-story seeds. Every entry should label source quality and separate research fact / folk belief / character belief / fictional variation / possible author-canon candidate.
 
-Do not outline chapters beyond the accepted Case Zero beat architecture until narrative voice has been stress-tested.
+Cast Naming & Character Identity Pass follows after this folklore layer is stable.
+
+Do not outline chapters beyond the accepted Case Zero beat architecture until the folklore/oral-story engine has been stress-tested enough to support Volume 1 texture.
