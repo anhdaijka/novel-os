@@ -19,6 +19,7 @@
 - Discovery 06: Hanoi work-life engine / Case 02 candidate — accepted.
 - Discovery 07: long-series architecture / macro mystery — accepted.
 - Discovery 08: Northern Vietnam setting / research bible — accepted.
+- Discovery 09: supernatural epistemology / horror rules — accepted.
 - Horror-first language amendment — accepted as project-level principle.
 
 ## Current core facts
@@ -44,6 +45,28 @@
 - Cultural research separates fact, testimony, character belief, observed phenomenon and author-canon rule.
 - `Culture is not supernatural evidence.`
 - Ethnic-minority settings and specific funeral/ritual practices require case-level research.
+
+## Accepted supernatural epistemology
+
+- The series world is compatible with genuine supernatural reality, but cosmology remains incomplete.
+- Narration normally reports observed experience rather than certifying labels such as `ma`, `vong`, `quỷ`, `căn` or `nhập` as objective fact.
+- The dead are not automatically truthful, omniscient, benevolent, evil or aware of everything after death.
+- A dead person may lie, omit, manipulate, misunderstand, protect someone or pursue unresolved goals.
+- Dreams are low-confidence evidence and never a clean answer cheat; shared/knowledge-bearing dreams may be strongly uncanny.
+- Sleep paralysis and psychiatric/neurological explanations receive serious consideration rather than being treated as proof of ghosts.
+- Full apparitions are allowed and may look ordinary; camera visibility and physical interaction have no universal rule.
+- Objects and places may be associated with phenomena without automatically being literal spirit containers or cursed hotspots.
+- Possession-like events are described phenomenologically before taxonomy; fraud, psychology, medicine, cultural interpretation and supernatural models may compete.
+- `Quỷ nhập tràng` / corpse-reanimation material is rare, restrained major horror rather than zombie/action spectacle.
+- Possibly non-human presences may exist, but no early bestiary or species taxonomy is established.
+- Ritual efficacy is not programmable or guaranteed. Skilled practitioners may be wrong; grandfather was sometimes wrong.
+- Khanh is not confirmed to have `căn`, supernatural sensitivity or chosen-one status.
+- Direct supernatural killing is possible in principle but very rare; causal-chain harm is more common.
+- Nhân quả remains moral/spiritual language rather than an observable reward/punishment engine.
+- Every important phenomenon separates observed fact, witnesses, physical evidence, natural models, folk interpretations, supernatural models and private author status.
+- **Absence of established ability is not permission to invent ability.** Power/capability escalation requires explicit evidence and author-level approval.
+
+Detailed operational rules: `development/horrible/discovery-09-supernatural-epistemology.md`.
 
 ## Accepted case development
 
@@ -107,13 +130,16 @@ Khanh remains a software engineer; investigation may affect career and life but 
 
 - Exact hometown name.
 - Final prose tense.
-- Detailed supernatural epistemology: hồn/vong, dreams, apparitions, sleep paralysis, possession-like events, object/place hauntings, curses, corpse-reanimation folklore and possible non-human presences.
-- Which supernatural patterns are only folk belief versus actual author-canon rules.
-- How strong direct supernatural experiences may become while preserving ambiguity.
+- Narrative voice and distance.
+- How conversational / regionally Northern dialogue should sound without becoming caricature.
+- Technical prose density for work scenes.
+- Exact horror-scene prose discipline: sensory detail, direct apparition, withholding and reveal.
+- Gore / body-horror ceiling.
+- Humor cadence and family/work dialogue texture.
 - Exact final causal models for intentionally ambiguous cases should remain locked once evidence is authored.
 
 ## Suggested next discovery
 
-Discovery 09 — Supernatural Epistemology & Horror Rules.
+Discovery 10 — Narrative Voice, Prose & Horror Language.
 
-Focus: define how the novel distinguishes folk belief, character interpretation, observed phenomenon and true author-level supernatural rules; set boundaries for dreams, apparitions, possession, places, objects, curses, corpse-reanimation folklore, agency of the dead and possible non-human presences without turning the world into a fantasy bestiary.
+Focus: POV/tense, narrative distance, prose density, Northern Vietnamese conversational register, family/work dialogue, technical prose, humor, sensory horror, apparition scenes, gore boundaries and techniques that prevent the novel from reading like generic AI horror prose.
