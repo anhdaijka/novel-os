@@ -31,6 +31,10 @@ The dead do not automatically become monsters, saints or omniscient witnesses. T
 
 The deeper question is often not “How do we get rid of the ghost?” but “What is the dead person trying to communicate — and can that communication be trusted?”
 
+A long-range macro thesis is:
+
+> Có những sự thật người sống cố chôn đi nhưng chúng không nhất thiết biến mất. Chúng quay lại qua ký ức, lời kể, giấc mơ, dấu vết, hành vi của người sống — và đôi khi qua những thứ không ai chắc là gì.
+
 ## Emotional north star
 
 Fear should coexist with tenderness, grief, nostalgia and ordinary affection. A dead person was once somebody who ate, argued, loved, failed, gave a child a snack, waited for someone to come home, or left something unsaid.
@@ -49,6 +53,18 @@ Fear should coexist with tenderness, grief, nostalgia and ordinary affection. A 
 - Not every supernatural event is a clue. Some exist for grief, dread, atmosphere, character or unresolved mystery.
 - Not every case must be solvable. Unresolved for characters must not mean underdesigned by the author.
 
+## Long-series direction
+
+- Structure the project in Volumes with different thematic questions rather than one endless chain of cases.
+- The macro mystery is a pattern, not a single final boss.
+- Only a minority of cases need genuine macro connection. Independent cases and false pattern matches keep the world large.
+- Grandfather's old records and his occasional refusals to take certain matters are a gateway into the macro pattern, not proof that he understood everything.
+- Escalate through depth: isolated anomaly → pattern → conflicting testimony → historical repetition → identity uncertainty → uncertainty about who or what is communicating.
+- Do not escalate through default supernatural power levels, bloodline destiny or combat.
+- Japan may return later through ordinary work life rather than a supernatural quest.
+- Do not confirm that Khanh is a supernatural magnet; attention, network effects and selection bias remain viable explanations.
+- A mature series may leave metaphysical questions incomplete while still making the supernatural strongly plausible.
+
 ## Worldview
 
 The project is compatible with a genuinely supernatural world, but avoids over-defining cosmology. Multiple explanatory models may remain simultaneously viable.
@@ -60,6 +76,12 @@ Phenomena such as possession, corpse reanimation folklore, apparitions, dreams, 
 Khanh begins fairly practical and skeptical of people who constantly take on other people's burdens. His long development moves toward helping when he genuinely can, taking responsibility for what he knows, and doing good without treating virtue as a supernatural points system.
 
 “Accumulating merit” is a language and ethical orientation available to characters, not a guaranteed physics engine of reward and punishment.
+
+His three long arcs are:
+
+1. wanting answers → accepting responsibility for what he knows;
+2. dismissing other people's burdens → helping when he can without guaranteed reward;
+3. demanding closure → living honestly with uncertainty.
 
 ## Non-negotiables
 
