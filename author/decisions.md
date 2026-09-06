@@ -308,3 +308,35 @@ Decisions below were explicitly accepted during discovery. Future agents must no
 - **Decision:** Northern Vietnamese concepts of ghosts, spirits, demons, corpse phenomena and possibly non-human presences may be researched and used heavily for atmosphere, oral tales, hypotheses and case material.
 - **Implications:** Named folklore categories remain folk/character belief unless separately established at author level. Different communities or tellers may disagree. Do not build a fixed monster bestiary or power/weakness chart from folklore terminology.
 - **Supersedes:** none
+
+### D-039 — Folklore Atlas is provenance, not taxonomy
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** Maintain a Folklore Atlas that records terminology, region/community, source quality, religious/folk/oral/media layer, variants, cultural context and author-universe status without treating labels as fixed supernatural species.
+- **Implications:** The same phenomenon may receive different names and the same name may refer to different phenomena. Narration does not certify which local label is metaphysically correct.
+- **Supersedes:** none
+
+### D-040 — Embedded stories may exceed provable reality
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** Oral stories embedded inside the novel may contain stronger or stranger supernatural claims than main-narrative reality has established because they belong to a teller's memory, belief and storytelling style.
+- **Implications:** Future writers must not copy abilities/rules from an oral tale into reality-layer canon without separate evidence. Most embedded stories may remain texture with no investigation or payoff.
+- **Supersedes:** none
+
+### D-041 — Folklore sourcing and regional specificity
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** Modern viral folklore and entertainment retellings may inform how stories circulate today but must not be promoted into historical or region-wide tradition without adequate sourcing.
+- **Implications:** Region-sensitive terms require provenance. If a concept is compelling but weakly sourced, present it as hearsay, explicitly fictional local lore or an invented horror element rather than false cultural fact.
+- **Supersedes:** none
+
+### D-042 — Initial folklore / mini-story bank remains candidate material
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** Initial Atlas clusters and Volume 1 embedded-story seeds are accepted as a development bank rather than plot canon.
+- **Implications:** Candidate material includes human-dead vocabulary, `ngạ quỷ`, dreams, `ma trơi`, `bóng đè`, possession-like terminology, `trùng tang`, research-required `Thần Trùng`, rare major-horror `quỷ nhập tràng`, `chó đội nón mê`, and several short oral-story seeds. Each use still requires scene/case-level fit and research where relevant.
+- **Supersedes:** none
