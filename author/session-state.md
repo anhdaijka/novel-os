@@ -7,7 +7,7 @@
 - Current focus: long-form discovery before Story Skills story initialization.
 - Project: `Horrible` — Northern Vietnam horror / spiritual / mystery series.
 - Branch: `story/horrible-development`.
-- Why now: establish series engine, characters, horror language, case architecture, macro direction, cultural setting, supernatural epistemology and prose/cultural storytelling rules before committing manuscript canon.
+- Why now: establish series engine, characters, horror language, case architecture, macro direction, cultural setting, supernatural epistemology, prose rules and folklore/oral-story engine before committing manuscript canon.
 
 ## Accepted discovery checkpoint
 
@@ -22,6 +22,7 @@
 - Discovery 09: supernatural epistemology / horror rules — accepted.
 - Discovery 10: narrative voice / prose / horror language — accepted.
 - Discovery 10 amendment: cultural celebration + embedded oral-horror / folklore storytelling layer — accepted.
+- Discovery 11: Folklore Atlas & Embedded Ghost Story Engine — accepted.
 - Horror-first language amendment — accepted as project-level principle.
 
 ## Current core facts
@@ -103,6 +104,21 @@ Detailed style rules: `author/style-bible.md` and `development/horrible/discover
 - Northern Vietnamese concepts of ghosts, spirits, demons, corpse phenomena and possible non-human beings are valuable story material, but named folklore categories are not automatically fixed species canon.
 - This layer is important for preventing `Horrible` from becoming too purely procedural-investigative.
 
+## Accepted Folklore Atlas / story engine
+
+- The Folklore Atlas is provenance and cultural-context tracking, not a monster taxonomy.
+- Every entry should track region/community, source quality, religious/folk/oral/media layer, variants, confusions, real cultural context, fictional-use boundary, sensitivity risk, likely believers and author-universe status.
+- Modern viral/media retellings may document how folklore circulates today, but do not automatically establish historical or regional tradition.
+- Weakly sourced but useful concepts should be framed as hearsay, fictional local lore or explicitly invented horror rather than false cultural fact.
+- Main initial clusters include `hồn/vong`, `oan hồn`, `cô hồn`, Buddhist-linked `ngạ quỷ`, dreams of the dead, `ma trơi`, `bóng đè`, possession-like terms, `trùng tang`, research-required `Thần Trùng`, rare major-horror `quỷ nhập tràng`, Northern oral-story candidate `chó đội nón mê`, and high-research umbrella terms such as `tinh/yêu/quỷ`.
+- Region-sensitive terms such as `ma da`, `ma xó` and `ma giữ của` require provenance before Northern-core use.
+- Hầu đồng is not default horror possession; Buddhism is not an anti-ghost magic system.
+- Embedded stories can temporarily be more supernatural than main-narrative reality because they belong to a teller's belief and memory. Their apparent powers/rules do not carry into reality-layer canon automatically.
+- Most embedded stories do not need payoff. Some may return later as planned story bridges or false patterns.
+- Initial Volume 1 candidate bank includes: night vegetable-truck dog story, postmortem phone call, overlapping dreams, cemetery lights / `ma trơi`, family fear of `trùng`, a thanh đồng who is mostly wrong but knows one impossible detail, and a folklore retelling of grandfather refusing a household.
+
+Detailed Atlas / engine: `development/horrible/discovery-11-folklore-atlas.md`.
+
 ## Accepted case development
 
 ### Case Zero
@@ -166,16 +182,15 @@ Khanh remains a software engineer; investigation may affect career and life but 
 
 - Exact hometown name.
 - Names and full identities of recurring supporting cast.
-- Detailed researched atlas of Northern Vietnamese ghost/spirit/demon concepts and regional variations.
-- Which folklore terms are safe/accurate to use as cultural explanation versus character belief.
-- A reusable engine for embedded oral ghost stories and how frequently they appear without bloating pacing.
-- Which cultural topics should receive dedicated scenes/mini-stories across Volume 1.
+- Appearance, habits, ordinary wants, contradictions and private pressures for recurring cast.
+- Relationship-specific dialogue voices.
+- Each recurring character's belief profile and storytelling profile: what they trust, dismiss, embellish or refuse to tell.
 - Exact final causal models for intentionally ambiguous cases should remain locked once evidence is authored.
 
 ## Suggested next discovery
 
-Discovery 11 — Folklore Atlas & Embedded Ghost Story Engine.
+Discovery 12 — Cast Naming & Character Identity Pass.
 
-Focus: build a researched map of Northern Vietnamese ghost/spirit/demon concepts, oral ghost-story formats, living-practice context, source quality and a bank of embedded-story seeds. Keep every entry labeled as research fact / folk belief / character belief / fictional variation / possible author-canon candidate.
+Focus: make the recurring cast concrete enough for scene-level drafting: names, ages, visual identity, habits, ordinary goals, contradictions, relationship voice, spiritual worldview and role in the oral-story ecosystem.
 
-Cast Naming & Character Identity Pass follows after this folklore layer is stable.
+Story Skills canon still waits until the cast pass and remaining pre-draft checks are stable.
