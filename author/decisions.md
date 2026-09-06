@@ -340,3 +340,35 @@ Decisions below were explicitly accepted during discovery. Future agents must no
 - **Decision:** Initial Atlas clusters and Volume 1 embedded-story seeds are accepted as a development bank rather than plot canon.
 - **Implications:** Candidate material includes human-dead vocabulary, `ngạ quỷ`, dreams, `ma trơi`, `bóng đè`, possession-like terminology, `trùng tang`, research-required `Thần Trùng`, rare major-horror `quỷ nhập tràng`, `chó đội nón mê`, and several short oral-story seeds. Each use still requires scene/case-level fit and research where relevant.
 - **Supersedes:** none
+
+### D-043 — Core recurring cast identities
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** Accept the Discovery 12 recurring identities: Nguyễn Minh Khanh; father Nguyễn Văn Hùng; mother Trần Thị Lan; sister Nguyễn Minh Hạnh; brother-in-law Lê Đức Tuấn; hometown friend Hoàng Ngọc Mai; grandfather's younger paternal half-brother Nguyễn Văn Nhân; practitioner Bùi Thị Thủy; doctor Phạm Quốc Duy; content creator Đỗ Minh Quân; team lead Trần Hoàng Nam; junior engineer Vũ Đức Anh; BA/BrSE Lê Thu Hà; Japan-side counterpart Sato Keisuke (佐藤圭介); and recurring police contact Đặng Việt Long.
+- **Implications:** Ages, jobs, relationship functions and accepted identity details are tracked in `development/horrible/discovery-12-cast-identity.md`. These are development truth; Story Skills files should still be initialized selectively.
+- **Supersedes:** D-003, D-008, D-010, D-011 and D-017 only where Discovery 12 provides more specific names/details; their creative intent remains in force.
+
+### D-044 — Cast conflict comes from different standards of knowing
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** Recurring characters should have distinct epistemic styles rather than reducing spiritual debate to binary believer-versus-skeptic arguments.
+- **Implications:** Khanh privileges causal coherence; Hùng practical experience; Lan social memory; Hạnh behavioral context; Mai operational reality; Nhân experiential tradition plus uncertainty; Thủy ritual interpretation; Duy evidence thresholds; Quân fast testimony/patterns; Nam actionable engineering evidence; Đức Anh digital search; Hà source qualification; Long procedural evidence. Dialogue and disagreements should emerge from these standards.
+- **Supersedes:** none
+
+### D-045 — No universal lore database in the cast
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** No recurring character knows all folklore, ritual practice, supernatural truth or local history.
+- **Implications:** Each character belongs to a different storytelling ecosystem. Lan, Mai, Hạnh, Nhân, Thủy, Duy, Quân, Đức Anh and Hà each provide different story types and reliability profiles. Expertise increases context, never omniscience.
+- **Supersedes:** none
+
+### D-046 — Research-sensitive character labels stay provisional
+
+- **Date:** 2026-09-06
+- **Status:** accepted development decision
+- **Decision:** Before final manuscript canon, research-confirm the exact family address/kinship term Khanh uses for Nguyễn Văn Nhân and the exact formal role/title appropriate for Bùi Thị Thủy within a real living tradition.
+- **Implications:** Development may use `ông Nhân` and `practitioner associated with Thờ Mẫu` as safe placeholders. Do not invent culturally specific kinship or ritual titles merely for atmosphere.
+- **Supersedes:** none
